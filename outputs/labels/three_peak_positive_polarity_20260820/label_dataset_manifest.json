@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-08-20T02:25:37.010037+00:00",
+  "external_evaluation_warning": "Held-out validation files are source/file-disjoint from the training partition but are not an independent isotope or session campaign.",
+  "external_validation_csv_sha256": "446109e87f61774510ae57b5bfd4de8cad64dfa27230f4cbaeee4616fb37dc5b",
+  "internal_split": {
+    "fit_pair_count": 38990,
+    "fit_pair_count_by_peak": {
+      "ba133_356kev": 17141,
+      "cs137_662kev": 10591,
+      "na22_511kev": 11258
+    },
+    "internal_fraction": 0.2,
+    "internal_pair_count": 9747,
+    "internal_pair_count_by_peak": {
+      "ba133_356kev": 4285,
+      "cs137_662kev": 2648,
+      "na22_511kev": 2814
+    },
+    "seed": 20260819
+  },
+  "partitions": {
+    "external_validation": {
+      "pair_count": 17298,
+      "pair_count_by_peak": {
+        "ba133_356kev": 7820,
+        "cs137_662kev": 4559,
+        "na22_511kev": 4919
+      },
+      "source_partition": "existing validation file partition"
+    },
+    "train": {
+      "pair_count": 48737,
+      "pair_count_by_peak": {
+        "ba133_356kev": 21426,
+        "cs137_662kev": 13239,
+        "na22_511kev": 14072
+      }
+    }
+  },
+  "positive_peaks": [
+    {
+      "nominal_energy_kev": 356.0129,
+      "peak_id": "ba133_356kev",
+      "short_name": "ba356",
+      "source": "ba133"
+    },
+    {
+      "nominal_energy_kev": 510.99895,
+      "peak_id": "na22_511kev",
+      "short_name": "na511",
+      "source": "na22"
+    },
+    {
+      "nominal_energy_kev": 661.657,
+      "peak_id": "cs137_662kev",
+      "short_name": "cs662",
+      "source": "cs137"
+    }
+  ],
+  "scan_subset": {
+    "limit_per_peak": 2500,
+    "pair_count": 7500,
+    "pair_count_by_peak": {
+      "ba133_356kev": 2500,
+      "cs137_662kev": 2500,
+      "na22_511kev": 2500
+    },
+    "seed": 20260820
+  },
+  "source_manifests": {
+    "ba133": {
+      "path": "outputs/labels/architecture_pass_warn_20260815_source_ablation/ba133_positive/label_dataset_manifest.json",
+      "sha256": "268a9509fbfc249f6c7cf054f191c20a125277037ae992965a26700add406e18"
+    },
+    "cs137": {
+      "path": "outputs/labels/architecture_pass_warn_20260815_source_ablation/cs137_positive/label_dataset_manifest.json",
+      "sha256": "7935fb00b10bfab1354ecadf6a4430813266d1b0fc27f928e0e6c211a66895e4"
+    },
+    "na22": {
+      "path": "outputs/labels/architecture_pass_warn_20260815_source_ablation/na22_positive/label_dataset_manifest.json",
+      "sha256": "3dc6f8287efc8b0a61ed2d299deafa7fed34b3b809a999f2f6f7ecd7192d9c05"
+    }
+  },
+  "test_partition_used": false,
+  "train_csv_sha256": "de8fbd2431ad6e2ce69a2b57a1a1d606bcbf3746b3cc779df2ccc5b01395ff62"
+}

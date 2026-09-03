@@ -1,0 +1,3 @@
+preset,threshold,selection_rule,user_adjustable,geometric_mean_pb_improvement,pooled_net_peak_retention,minimum_peak_retention,mean_peak_retention,selected_event_fraction
+sweet_spot,0.459,normalized Pareto knee of P/B gain versus worst-peak retention loss,True,1.2228999959932714,0.7928799560571282,0.7707542870623627,0.7872344654783403,0.6571591816256611
+no_brainer_conservative,0.268,highest P/B with pooled usable-peak net retention >=99%,True,1.0445522034078112,0.990091568653522,0.9773623317066059,0.9892971721086393,0.9633347562395361

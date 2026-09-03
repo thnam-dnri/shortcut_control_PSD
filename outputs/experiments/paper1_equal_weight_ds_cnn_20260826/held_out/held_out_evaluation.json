@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-08-26T02:55:06.250113+00:00",
+  "eu152_used": false,
+  "event_count": 34596,
+  "event_store_dir": "processed_data/event_store/architecture_pass_warn_20260815_source_ablation",
+  "held_out_scores_used_for_selection": false,
+  "label_csv": {
+    "path": "outputs/labels/three_peak_positive_polarity_20260820/label_pairs_validation.csv",
+    "sha256": "446109e87f61774510ae57b5bfd4de8cad64dfa27230f4cbaeee4616fb37dc5b"
+  },
+  "lineage": {
+    "canonical_seed": 20260825,
+    "predeclared_seeds": [
+      20260825,
+      20260826,
+      20260827
+    ],
+    "selection_rule": "first predeclared seed; selected without held-out, Th-232, Eu-152, or locked-test comparison",
+    "study_config": "outputs/experiments/strict_ds_cnn_reproducibility_20260826/three_peak_equal_weight/experiment_config.json",
+    "study_config_sha256": "2e1e003619da80f626d6fc6f38d7d36e8b4838741ce1959438f3d4e32a6c2b28"
+  },
+  "metrics": {
+    "ds_cnn": {
+      "macro_auroc": 0.6622711457911573,
+      "per_peak": {
+        "ba133_356kev": {
+          "auroc": 0.6230863710990902,
+          "average_precision": 0.5982748531708877,
+          "event_count": 15640,
+          "pair_count": 7820
+        },
+        "cs137_662kev": {
+          "auroc": 0.6875815181528948,
+          "average_precision": 0.668109576420197,
+          "event_count": 9118,
+          "pair_count": 4559
+        },
+        "na22_511kev": {
+          "auroc": 0.6761455481214871,
+          "average_precision": 0.6554200975953559,
+          "event_count": 9838,
+          "pair_count": 4919
+        }
+      },
+      "pooled_auroc": 0.6566743216825258,
+      "pooled_average_precision": 0.6368829336607157,
+      "weighted_auroc": 0.663613503211207,
+      "worst_peak_auroc": 0.6230863710990902
+    }
+  },
+  "models": {
+    "ds_cnn": {
+      "checkpoint": "outputs/experiments/strict_ds_cnn_reproducibility_20260826/three_peak_equal_weight/seed_20260825/ds_cnn_best.pt",
+      "checkpoint_sha256": "cdb90decef73e1ac5ac846df7f6f2f7642ab2d60b912e648602d67696a089677",
+      "feature_statistics": {
+        "means": [
+          0.8080496610574927,
+          0.00041181431284343165
+        ],
+        "standard_deviations": [
+          0.5891143709275003,
+          0.002026559547241249
+        ]
+      },
+      "internal_selection_metrics": {
+        "macro_auroc": 0.6496239591364322,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6146930283790978,
+            "average_precision": 0.5958263696588522,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6741796522028825,
+            "average_precision": 0.6544067957091717,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.6599991968273164,
+            "average_precision": 0.6378781702196643,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6452914318594702,
+        "pooled_average_precision": 0.626747715130578,
+        "weighted_auroc": 0.6508717345919401,
+        "worst_peak_auroc": 0.6146930283790978
+      },
+      "model_kind": "ds_cnn",
+      "parameter_count": 22753,
+      "refit_epochs": 6,
+      "representation_config": {
+        "anchor": "t10",
+        "clip_charge_to_unit_interval": false,
+        "current_search_start": 1000,
+        "current_search_stop": 2000,
+        "downsample": 1,
+        "endpoint_inclusive": false,
+        "input_mode": "both",
+        "moving_average": 10,
+        "name": "both_ma10_global_t10_w750_positive_polarity",
+        "normalization": "global",
+        "post_samples": 500,
+        "pre_samples": 250,
+        "pulse_polarity": "negative_to_positive",
+        "representation_schema_version": 1,
+        "standardization": "train_zscore"
+      },
+      "scan_best_epoch": 6,
+      "selected_peak_weights": {
+        "ba133_356kev": 0.3333333333333333,
+        "cs137_662kev": 0.3333333333333333,
+        "na22_511kev": 0.3333333333333333
+      }
+    }
+  },
+  "pair_count": 17298,
+  "partition": "held_out_validation_file_partition",
+  "representation_qc": {
+    "anchor_fallback_count": 3,
+    "charge_clipped_event_count": 0,
+    "charge_clipped_sample_count": 0,
+    "invalid_scale_count": 0
+  },
+  "schema_version": 1,
+  "scientific_boundary": "Same-domain file-held-out strict proxy-label comparison. The first predeclared equal-weight seed is the sole Paper 1 model; no ensemble and no held-out or target-data seed selection were used.",
+  "score_artifact": {
+    "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/held_out/held_out_scores.npz",
+    "sha256": "8cdcf9b8281d63939ae13438b62f94ef7ba93615db66988acd01cd9e6b1af919"
+  },
+  "selection_complete_before_held_out": true,
+  "status": "PAPER1_EQUAL_WEIGHT_STRICT_DS_CNN_HELD_OUT_EVALUATION",
+  "target_data_used_for_selection": false,
+  "test_partition_used": false,
+  "th232_used": false
+}

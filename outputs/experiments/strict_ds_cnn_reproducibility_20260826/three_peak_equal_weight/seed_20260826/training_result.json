@@ -1,0 +1,285 @@
+{
+  "checkpoint": "outputs/experiments/strict_ds_cnn_reproducibility_20260826/three_peak_equal_weight/seed_20260826/ds_cnn_best.pt",
+  "checkpoint_sha256": "37ec80bb80e8025c0f6dbb1186e646fe5a83239fd0855d8f628848c08e783e12",
+  "config": "three_peak_equal_weight",
+  "parameter_count": 22753,
+  "refit_internal_metrics": {
+    "macro_auroc": 0.6649809720162408,
+    "per_peak": {
+      "ba133_356kev": {
+        "auroc": 0.6336898273399515,
+        "average_precision": 0.6151150925193127,
+        "event_count": 8570,
+        "pair_count": 4285
+      },
+      "cs137_662kev": {
+        "auroc": 0.6798358905084838,
+        "average_precision": 0.660633026327276,
+        "event_count": 5296,
+        "pair_count": 2648
+      },
+      "na22_511kev": {
+        "auroc": 0.681417198200287,
+        "average_precision": 0.6609152932193626,
+        "event_count": 5628,
+        "pair_count": 2814
+      }
+    },
+    "pooled_auroc": 0.6609633547148521,
+    "pooled_average_precision": 0.641447489022488,
+    "weighted_auroc": 0.6658425675323945,
+    "worst_peak_auroc": 0.6336898273399515
+  },
+  "refit_training_loss_history": [
+    0.6714585967162567,
+    0.6624230809945775,
+    0.6583605669264787,
+    0.6564072761105509,
+    0.6539463503733527,
+    0.6518319007509051
+  ],
+  "scan_best_epoch": 6,
+  "scan_best_internal_metrics": {
+    "macro_auroc": 0.6513298290238813,
+    "per_peak": {
+      "ba133_356kev": {
+        "auroc": 0.6181328587825703,
+        "average_precision": 0.6013503888013241,
+        "event_count": 8570,
+        "pair_count": 4285
+      },
+      "cs137_662kev": {
+        "auroc": 0.671945879464408,
+        "average_precision": 0.6443736013370349,
+        "event_count": 5296,
+        "pair_count": 2648
+      },
+      "na22_511kev": {
+        "auroc": 0.6639107488246654,
+        "average_precision": 0.6448927541869414,
+        "event_count": 5628,
+        "pair_count": 2814
+      }
+    },
+    "pooled_auroc": 0.6471225387972838,
+    "pooled_average_precision": 0.6263195223548861,
+    "weighted_auroc": 0.6523893662453707,
+    "worst_peak_auroc": 0.6181328587825703
+  },
+  "scan_history": [
+    {
+      "epoch": 1,
+      "internal": {
+        "macro_auroc": 0.6331182885453723,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6044128863951072,
+            "average_precision": 0.5809627554741306,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6576757896286087,
+            "average_precision": 0.6276870511570051,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.637266189612401,
+            "average_precision": 0.6151330679101874,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6290599536699552,
+        "pooled_average_precision": 0.6058591562396743,
+        "weighted_auroc": 0.6337799449377295,
+        "worst_peak_auroc": 0.6044128863951072
+      },
+      "train_loss": 0.6755935840466135
+    },
+    {
+      "epoch": 2,
+      "internal": {
+        "macro_auroc": 0.6397230701492201,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6102159850445709,
+            "average_precision": 0.5904513244975838,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6652603914714177,
+            "average_precision": 0.64037652641139,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.6436928339316718,
+            "average_precision": 0.6250411591426436,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6359666937844697,
+        "pooled_average_precision": 0.6164131810323528,
+        "weighted_auroc": 0.6407989361805224,
+        "worst_peak_auroc": 0.6102159850445709
+      },
+      "train_loss": 0.6652829207366646
+    },
+    {
+      "epoch": 3,
+      "internal": {
+        "macro_auroc": 0.6432578045788471,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6104507733008011,
+            "average_precision": 0.5894762046898072,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6695548028039175,
+            "average_precision": 0.6430495370366733,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.6497678376318226,
+            "average_precision": 0.6315992969024298,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6391627062811633,
+        "pooled_average_precision": 0.6190672174990112,
+        "weighted_auroc": 0.6444861135031728,
+        "worst_peak_auroc": 0.6104507733008011
+      },
+      "train_loss": 0.6617088659724378
+    },
+    {
+      "epoch": 4,
+      "internal": {
+        "macro_auroc": 0.6423269736526451,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.611318498629585,
+            "average_precision": 0.5945988929721535,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6653860349485674,
+            "average_precision": 0.6341461504874597,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.650276387379783,
+            "average_precision": 0.6291614917585293,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6384140168232268,
+        "pooled_average_precision": 0.6165521888472043,
+        "weighted_auroc": 0.6434076658392375,
+        "worst_peak_auroc": 0.611318498629585
+      },
+      "train_loss": 0.6598708156369137
+    },
+    {
+      "epoch": 5,
+      "internal": {
+        "macro_auroc": 0.6507768885166149,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6207036839862264,
+            "average_precision": 0.6017237890290787,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.6733367998192787,
+            "average_precision": 0.6464184838196425,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.6582901817443395,
+            "average_precision": 0.6379735198553589,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6470651991117554,
+        "pooled_average_precision": 0.626326598763839,
+        "weighted_auroc": 0.6519029973721047,
+        "worst_peak_auroc": 0.6207036839862264
+      },
+      "train_loss": 0.6556942759886174
+    },
+    {
+      "epoch": 6,
+      "internal": {
+        "macro_auroc": 0.6513298290238813,
+        "per_peak": {
+          "ba133_356kev": {
+            "auroc": 0.6181328587825703,
+            "average_precision": 0.6013503888013241,
+            "event_count": 8570,
+            "pair_count": 4285
+          },
+          "cs137_662kev": {
+            "auroc": 0.671945879464408,
+            "average_precision": 0.6443736013370349,
+            "event_count": 5296,
+            "pair_count": 2648
+          },
+          "na22_511kev": {
+            "auroc": 0.6639107488246654,
+            "average_precision": 0.6448927541869414,
+            "event_count": 5628,
+            "pair_count": 2814
+          }
+        },
+        "pooled_auroc": 0.6471225387972838,
+        "pooled_average_precision": 0.6263195223548861,
+        "weighted_auroc": 0.6523893662453707,
+        "worst_peak_auroc": 0.6181328587825703
+      },
+      "train_loss": 0.6538262540155764
+    }
+  ],
+  "seed": 20260826,
+  "validation_metrics": {
+    "macro_auroc": 0.6628013097254809,
+    "per_peak": {
+      "ba133_356kev": {
+        "auroc": 0.6281644874117778,
+        "average_precision": 0.6031073425035764,
+        "event_count": 15640,
+        "pair_count": 7820
+      },
+      "cs137_662kev": {
+        "auroc": 0.6837325406393356,
+        "average_precision": 0.6636200780081369,
+        "event_count": 9118,
+        "pair_count": 4559
+      },
+      "na22_511kev": {
+        "auroc": 0.6765069011253293,
+        "average_precision": 0.6588981030981974,
+        "event_count": 9838,
+        "pair_count": 4919
+      }
+    },
+    "pooled_auroc": 0.6573845814544366,
+    "pooled_average_precision": 0.6362194212941604,
+    "weighted_auroc": 0.6635498914352521,
+    "worst_peak_auroc": 0.6281644874117778
+  }
+}

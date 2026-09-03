@@ -1,0 +1,428 @@
+{
+  "a_over_e_definition": {
+    "baseline": "median samples 0:1000",
+    "current": "dQ/dt with 4 ns sample period",
+    "denominator_sensitivity": "max(I(t)) / shaped_energy_unit",
+    "formula": "max(I(t)) / max(Q(t))",
+    "higher_score_means_label_1": true,
+    "moving_average": "causal MA10",
+    "primary_name": "waveform_A_over_Q",
+    "search_samples": [
+      1000,
+      2000
+    ],
+    "waveform_polarity": "negative acquired polarity converted to positive"
+  },
+  "artifacts": {
+    "ae_vs_cnn_distributions.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/traditional_ae/ae_vs_cnn_distributions.png",
+      "sha256": "5a5f9556fb24dc42f15fc9bb687e5d12cd35340485909dc089627a0e4f570fa1"
+    },
+    "ae_vs_cnn_metrics.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/traditional_ae/ae_vs_cnn_metrics.csv",
+      "sha256": "213e0d3e0dba2c44ddb9e6a9a481c634cb674b9afc61f3a025263af563b0ea83"
+    },
+    "ae_vs_cnn_report.json": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/traditional_ae/ae_vs_cnn_report.json"
+    },
+    "ae_vs_cnn_roc.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/traditional_ae/ae_vs_cnn_roc.png",
+      "sha256": "6edf5df4ec102133e49aead85e0c62549e27c06a6886dd02631c6f6d29530f5f"
+    },
+    "held_out_ae_scores.npz": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/traditional_ae/held_out_ae_scores.npz",
+      "sha256": "6e4cd72c17eca2a6bb58622fe3148babc6666160ce35253afe3baad7f2c7d908"
+    }
+  },
+  "created_utc": "2026-08-26T02:55:20.024138+00:00",
+  "distribution_statistics": {
+    "frozen_DS_CNN": {
+      "ba133_356kev": {
+        "negative": {
+          "event_count": 7820,
+          "mean": 0.4797813302586617,
+          "median": 0.4802214503288269,
+          "q05": 0.28825393915176395,
+          "q95": 0.67331026494503,
+          "standard_deviation": 0.12288397775843199
+        },
+        "positive": {
+          "event_count": 7820,
+          "mean": 0.5318234459737606,
+          "median": 0.5400242209434509,
+          "q05": 0.3431610643863678,
+          "q95": 0.6991749107837676,
+          "standard_deviation": 0.10890175704340564
+        }
+      },
+      "cs137_662kev": {
+        "negative": {
+          "event_count": 4559,
+          "mean": 0.45080474693794725,
+          "median": 0.4476206600666046,
+          "q05": 0.2208788052201271,
+          "q95": 0.700160539150238,
+          "standard_deviation": 0.15432987751875124
+        },
+        "positive": {
+          "event_count": 4559,
+          "mean": 0.5535583441836396,
+          "median": 0.5687763094902039,
+          "q05": 0.29858296513557436,
+          "q95": 0.7628090560436248,
+          "standard_deviation": 0.1401957602396601
+        }
+      },
+      "na22_511kev": {
+        "negative": {
+          "event_count": 4919,
+          "mean": 0.4497515550346162,
+          "median": 0.4474347233772278,
+          "q05": 0.23258970230817794,
+          "q95": 0.6889441072940826,
+          "standard_deviation": 0.14462360804082264
+        },
+        "positive": {
+          "event_count": 4919,
+          "mean": 0.539790309294619,
+          "median": 0.5546525716781616,
+          "q05": 0.2962795376777649,
+          "q95": 0.7420925140380858,
+          "standard_deviation": 0.13449085153328197
+        }
+      },
+      "overall": {
+        "negative": {
+          "event_count": 17298,
+          "mean": 0.4636048527649505,
+          "median": 0.46513882279396057,
+          "q05": 0.2443704105913639,
+          "q95": 0.6848784953355789,
+          "standard_deviation": 0.13880835226649008
+        },
+        "positive": {
+          "event_count": 17298,
+          "mean": 0.5398173413150799,
+          "median": 0.5507305860519409,
+          "q05": 0.31795427203178406,
+          "q95": 0.7333462297916412,
+          "standard_deviation": 0.12555411799853883
+        }
+      }
+    },
+    "max_I_over_shaped_energy": {
+      "ba133_356kev": {
+        "negative": {
+          "event_count": 7820,
+          "mean": 0.008922932353501837,
+          "median": 0.008128405936777395,
+          "q05": 0.00618936911095021,
+          "q95": 0.01442031083687627,
+          "standard_deviation": 0.0031807221935697184
+        },
+        "positive": {
+          "event_count": 7820,
+          "mean": 0.009457602345018041,
+          "median": 0.008679378211782208,
+          "q05": 0.006256850433664029,
+          "q95": 0.01543226649648783,
+          "standard_deviation": 0.0032349542249053907
+        }
+      },
+      "cs137_662kev": {
+        "negative": {
+          "event_count": 4559,
+          "mean": 0.008206813744247676,
+          "median": 0.007448392508904161,
+          "q05": 0.005638446614891183,
+          "q95": 0.01360315121893188,
+          "standard_deviation": 0.003179450047427658
+        },
+        "positive": {
+          "event_count": 4559,
+          "mean": 0.008365738528073739,
+          "median": 0.007976928879381427,
+          "q05": 0.005656396282984571,
+          "q95": 0.013116860863403274,
+          "standard_deviation": 0.002784846810815158
+        }
+      },
+      "na22_511kev": {
+        "negative": {
+          "event_count": 4919,
+          "mean": 0.008259855927089296,
+          "median": 0.0076188811134023995,
+          "q05": 0.005654125614057576,
+          "q95": 0.012931240731739855,
+          "standard_deviation": 0.0029794133295562193
+        },
+        "positive": {
+          "event_count": 4919,
+          "mean": 0.008553441848097582,
+          "median": 0.00801047132217889,
+          "q05": 0.005980926197288702,
+          "q95": 0.013375165804314857,
+          "standard_deviation": 0.002728700361315624
+        }
+      },
+      "overall": {
+        "negative": {
+          "event_count": 17298,
+          "mean": 0.008545636846442464,
+          "median": 0.007708710127539866,
+          "q05": 0.005674357505849739,
+          "q95": 0.013757630334499534,
+          "standard_deviation": 0.0031432553329147866
+        },
+        "positive": {
+          "event_count": 17298,
+          "mean": 0.008912720125929082,
+          "median": 0.008330219162615258,
+          "q05": 0.0059261452923104535,
+          "q95": 0.014358869062754758,
+          "standard_deviation": 0.003023581385899965
+        }
+      }
+    },
+    "waveform_A_over_Q": {
+      "ba133_356kev": {
+        "negative": {
+          "event_count": 7820,
+          "mean": 0.008427869111555346,
+          "median": 0.00769927871124601,
+          "q05": 0.005824373694038715,
+          "q95": 0.013692579558512807,
+          "standard_deviation": 0.00300959286342298
+        },
+        "positive": {
+          "event_count": 7820,
+          "mean": 0.008922819837307477,
+          "median": 0.008272059468043286,
+          "q05": 0.005952379808736943,
+          "q95": 0.014599997572928042,
+          "standard_deviation": 0.002982058138334083
+        }
+      },
+      "cs137_662kev": {
+        "negative": {
+          "event_count": 4559,
+          "mean": 0.007830116939411262,
+          "median": 0.007093932742480754,
+          "q05": 0.005329459370146149,
+          "q95": 0.012839146049311616,
+          "standard_deviation": 0.0029655186420225687
+        },
+        "positive": {
+          "event_count": 4559,
+          "mean": 0.007985812625737164,
+          "median": 0.007598040150661094,
+          "q05": 0.005371095532609589,
+          "q95": 0.012502456693290205,
+          "standard_deviation": 0.00260358588613985
+        }
+      },
+      "na22_511kev": {
+        "negative": {
+          "event_count": 4919,
+          "mean": 0.007928664570651908,
+          "median": 0.007169573954425686,
+          "q05": 0.005407121146925155,
+          "q95": 0.012180286141542283,
+          "standard_deviation": 0.0045579372325765055
+        },
+        "positive": {
+          "event_count": 4919,
+          "mean": 0.008132060250750032,
+          "median": 0.007633589754441235,
+          "q05": 0.005625003576278686,
+          "q95": 0.012722646557420076,
+          "standard_deviation": 0.0025425408531273234
+        }
+      },
+      "overall": {
+        "negative": {
+          "event_count": 17298,
+          "mean": 0.008128369788540611,
+          "median": 0.007407408069681238,
+          "q05": 0.005445546442919438,
+          "q95": 0.013032189255128038,
+          "standard_deviation": 0.003520733011370643
+        },
+        "positive": {
+          "event_count": 17298,
+          "mean": 0.008450998685508129,
+          "median": 0.007950526879799965,
+          "q05": 0.005653267039069306,
+          "q95": 0.01349747789644939,
+          "standard_deviation": 0.002798502697045913
+        }
+      }
+    }
+  },
+  "event_count": 34596,
+  "experiment_id": "traditional_ae_vs_ds_cnn_20260821",
+  "held_out_scores_used_for_AE_selection": false,
+  "input": {
+    "cnn_score_artifact": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/held_out/held_out_scores.npz",
+    "cnn_score_artifact_sha256": "8cdcf9b8281d63939ae13438b62f94ef7ba93615db66988acd01cd9e6b1af919",
+    "cnn_score_key": "ds_cnn_scores",
+    "event_store_dir": "processed_data/event_store/architecture_pass_warn_20260815_source_ablation",
+    "validation_csv": "outputs/labels/three_peak_positive_polarity_20260820/label_pairs_validation.csv",
+    "validation_csv_sha256": "446109e87f61774510ae57b5bfd4de8cad64dfa27230f4cbaeee4616fb37dc5b"
+  },
+  "invalid_waveform_A_over_Q": {
+    "event_count": 3,
+    "fraction": 8.671522719389525e-05,
+    "label_counts": {
+      "label_0": 3,
+      "label_1": 0
+    },
+    "policy_for_all_event_comparison": "retain event and assign A/E score 0.0, the lowest score"
+  },
+  "metrics": {
+    "frozen_DS_CNN": {
+      "macro_auroc": 0.6622711457911573,
+      "orientation_invariant_pooled_auroc": 0.6566743216825258,
+      "per_peak": {
+        "ba133_356kev": {
+          "auroc": 0.6230863710990902,
+          "average_precision": 0.5982748531708877,
+          "event_count": 15640,
+          "negative_count": 7820,
+          "positive_count": 7820
+        },
+        "cs137_662kev": {
+          "auroc": 0.6875815181528948,
+          "average_precision": 0.668109576420197,
+          "event_count": 9118,
+          "negative_count": 4559,
+          "positive_count": 4559
+        },
+        "na22_511kev": {
+          "auroc": 0.6761455481214871,
+          "average_precision": 0.6554200975953559,
+          "event_count": 9838,
+          "negative_count": 4919,
+          "positive_count": 4919
+        }
+      },
+      "pooled_auroc": 0.6566743216825258,
+      "pooled_average_precision": 0.6368829336607157,
+      "weighted_auroc": 0.663613503211207,
+      "weighted_average_precision": 0.644070230550567,
+      "worst_peak_auroc": 0.6230863710990902
+    },
+    "max_I_over_shaped_energy": {
+      "macro_auroc": 0.5715294900668673,
+      "orientation_invariant_pooled_auroc": 0.5641853181438548,
+      "per_peak": {
+        "ba133_356kev": {
+          "auroc": 0.5914133378248442,
+          "average_precision": 0.5593585121809272,
+          "event_count": 15640,
+          "negative_count": 7820,
+          "positive_count": 7820
+        },
+        "cs137_662kev": {
+          "auroc": 0.5553167288613077,
+          "average_precision": 0.5246484402854176,
+          "event_count": 9118,
+          "negative_count": 4559,
+          "positive_count": 4559
+        },
+        "na22_511kev": {
+          "auroc": 0.5678584035144498,
+          "average_precision": 0.5390383658880167,
+          "event_count": 9838,
+          "negative_count": 4919,
+          "positive_count": 4919
+        }
+      },
+      "pooled_auroc": 0.5641853181438548,
+      "pooled_average_precision": 0.5389084555988904,
+      "weighted_auroc": 0.5605346010834084,
+      "weighted_average_precision": 0.5352325249351007,
+      "worst_peak_auroc": 0.5553167288613077
+    },
+    "waveform_A_over_Q": {
+      "macro_auroc": 0.5584827917521472,
+      "orientation_invariant_pooled_auroc": 0.5592956481060722,
+      "per_peak": {
+        "ba133_356kev": {
+          "auroc": 0.5755660448322552,
+          "average_precision": 0.54951205167891,
+          "event_count": 15640,
+          "negative_count": 7820,
+          "positive_count": 7820
+        },
+        "cs137_662kev": {
+          "auroc": 0.5453382983197896,
+          "average_precision": 0.5183812008174238,
+          "event_count": 9118,
+          "negative_count": 4559,
+          "positive_count": 4559
+        },
+        "na22_511kev": {
+          "auroc": 0.554544032104397,
+          "average_precision": 0.5304370832701047,
+          "event_count": 9838,
+          "negative_count": 4919,
+          "positive_count": 4919
+        }
+      },
+      "pooled_auroc": 0.5592956481060722,
+      "pooled_average_precision": 0.5352806403117589,
+      "weighted_auroc": 0.5563268429708377,
+      "weighted_average_precision": 0.5321369814930494,
+      "worst_peak_auroc": 0.5453382983197896
+    }
+  },
+  "pair_count": 17298,
+  "partition": "same-domain development held-out validation file partition",
+  "rank_correlation_with_cnn": {
+    "max_I_over_shaped_energy_vs_cnn": 0.24477575443780358,
+    "waveform_A_over_Q_vs_cnn": 0.2486736088293187
+  },
+  "schema_version": "1",
+  "scientific_boundary": "This compares a conventional scalar A/E-like waveform discriminator with the frozen DS-CNN on the same-domain development holdout. The labels are source/energy-matched proxy labels under the existing scalar-shortcut warning, not independent interaction truth.",
+  "selected_peak_weights": {
+    "ba133_356kev": 0.3333333370828768,
+    "cs137_662kev": 0.33333333773043705,
+    "na22_511kev": 0.3333333251866861
+  },
+  "status": "HELD_OUT_COMPARISON",
+  "test_partition_used": false,
+  "th232_used": false,
+  "waveform_A_over_Q_valid_only_metrics": {
+    "macro_auroc": 0.5584133487798829,
+    "orientation_invariant_pooled_auroc": 0.5592192032922138,
+    "per_peak": {
+      "ba133_356kev": {
+        "auroc": 0.5754574661791041,
+        "average_precision": 0.54951205167891,
+        "event_count": 15638,
+        "negative_count": 7818,
+        "positive_count": 7820
+      },
+      "cs137_662kev": {
+        "auroc": 0.5452385480561477,
+        "average_precision": 0.5183812008174239,
+        "event_count": 9117,
+        "negative_count": 4558,
+        "positive_count": 4559
+      },
+      "na22_511kev": {
+        "auroc": 0.554544032104397,
+        "average_precision": 0.5304370832701047,
+        "event_count": 9838,
+        "negative_count": 4919,
+        "positive_count": 4919
+      }
+    },
+    "pooled_auroc": 0.5592192032922138,
+    "pooled_average_precision": 0.5352806403117589,
+    "weighted_auroc": 0.5562565686800903,
+    "weighted_average_precision": 0.5321369814930494,
+    "worst_peak_auroc": 0.5452385480561477
+  }
+}

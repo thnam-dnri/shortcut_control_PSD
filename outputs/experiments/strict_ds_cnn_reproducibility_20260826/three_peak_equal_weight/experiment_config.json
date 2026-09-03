@@ -1,0 +1,74 @@
+{
+  "config": "three_peak_equal_weight",
+  "created_utc": "2026-08-25T23:12:48.389395+00:00",
+  "feature_statistics": {
+    "means": [
+      0.8080496610574927,
+      0.00041181431284343165
+    ],
+    "standard_deviations": [
+      0.5891143709275003,
+      0.002026559547241249
+    ]
+  },
+  "fit_pair_count": 38990,
+  "internal_pair_count": 9747,
+  "peak_weights": {
+    "ba133_356kev": 0.3333333333333333,
+    "cs137_662kev": 0.3333333333333333,
+    "na22_511kev": 0.3333333333333333
+  },
+  "representation": {
+    "anchor": "t10",
+    "clip_charge_to_unit_interval": false,
+    "current_search_start": 1000,
+    "current_search_stop": 2000,
+    "downsample": 1,
+    "endpoint_inclusive": false,
+    "input_mode": "both",
+    "moving_average": 10,
+    "name": "both_ma10_global_t10_w750_positive_polarity",
+    "normalization": "global",
+    "post_samples": 500,
+    "pre_samples": 250,
+    "pulse_polarity": "negative_to_positive",
+    "representation_schema_version": 1,
+    "standardization": "train_zscore"
+  },
+  "representation_qc": {
+    "train": {
+      "anchor_fallback_count": 4,
+      "charge_clipped_event_count": 0,
+      "charge_clipped_sample_count": 0,
+      "invalid_scale_count": 0
+    },
+    "validation": {
+      "anchor_fallback_count": 3,
+      "charge_clipped_event_count": 0,
+      "charge_clipped_sample_count": 0,
+      "invalid_scale_count": 0
+    }
+  },
+  "schema_version": 1,
+  "strict_match_rule": "absolute positive-negative corrected-energy difference < 0.5 keV",
+  "target_data_used_for_selection": false,
+  "test_partition_used": false,
+  "train_csv": "outputs/labels/three_peak_positive_polarity_20260820/label_pairs_train.csv",
+  "train_csv_sha256": "de8fbd2431ad6e2ce69a2b57a1a1d606bcbf3746b3cc779df2ccc5b01395ff62",
+  "train_pair_count": 48737,
+  "training": {
+    "batch_size": 256,
+    "epochs": 6,
+    "learning_rate": 0.0008,
+    "patience": 2,
+    "seeds": [
+      20260825,
+      20260826,
+      20260827
+    ],
+    "weight_decay": 0.0003
+  },
+  "validation_csv": "outputs/labels/three_peak_positive_polarity_20260820/label_pairs_validation.csv",
+  "validation_csv_sha256": "446109e87f61774510ae57b5bfd4de8cad64dfa27230f4cbaeee4616fb37dc5b",
+  "validation_pair_count": 17298
+}

@@ -1,0 +1,65 @@
+# ==========================================
+# Internal Documentation, Manuscript, & Notes
+# ==========================================
+docs/
+AGENTS.md
+CODEBASE_MAP.md
+archive/
+
+# ==========================================
+# Data & Large Binary Files
+# ==========================================
+processed_data/
+raw_data/
+*.root
+*.h5
+*.hdf5
+*.dat
+
+# ==========================================
+# Output Management: Ignore exploratory outputs, whitelist model reproduction assets
+# ==========================================
+outputs/*
+
+!outputs/labels/
+outputs/labels/*
+!outputs/labels/three_peak_positive_polarity_20260820/
+
+!outputs/experiments/
+outputs/experiments/*
+!outputs/experiments/strict_ds_cnn_reproducibility_20260826/
+!outputs/experiments/paper1_equal_weight_ds_cnn_20260826/
+
+# ==========================================
+# LaTeX & Auxiliary Files
+# ==========================================
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.spl
+*.synctex.gz
+*.pdf
+
+# ==========================================
+# Python Caches & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+analysis-venv/
+
+# ==========================================
+# OS Artifacts
+# ==========================================
+.DS_Store
+Thumbs.db

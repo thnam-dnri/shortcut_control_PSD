@@ -1,0 +1,2840 @@
+{
+  "admitted_events": 2886112,
+  "artifacts": {
+    "fpga_recommended_threshold_presets.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/fpga_recommended_threshold_presets.csv",
+      "sha256": "439bd9ef3c05d01c4d9179df5abe6d86dbbe4921c15a10cc31f37a0244d35414"
+    },
+    "operating_points.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/operating_points.csv",
+      "sha256": "1598baaa1adb1add67704f51c8f1a96dcf3062c006e6a40c0dda18e47c3c6bb1"
+    },
+    "per_peak_metrics.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/per_peak_metrics.csv",
+      "sha256": "850fa28ab9289af1159f7fd1c9f499e651659ea0ed6cd43afd205f9d19b44520"
+    },
+    "report.md": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/report.md",
+      "sha256": "6b88bbf1760c583c1d358d2b9cc338066f7b5ba4b9ffeb210e0b8be5948312ae"
+    },
+    "th232_spectrum_threshold_0p4590.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/th232_spectrum_threshold_0p4590.png",
+      "sha256": "0f845a828f0727e8257afd4266a0ae60b071ca99654773a45b8b41c7023856b6"
+    },
+    "th232_spectrum_threshold_0p4590_1kev.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/th232_spectrum_threshold_0p4590_1kev.csv",
+      "sha256": "bc73a0f7418e6708c8737678c8d064a779e239b4c7649b6dcc93e38e59970d26"
+    },
+    "threshold_optimization.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/threshold_optimization.png",
+      "sha256": "288e0f31940966b8241901846b7e985c01ff93c52892cff5ee507c5af373f518"
+    },
+    "threshold_scan.csv": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/threshold_scan.csv",
+      "sha256": "bf3321209e8afae2d3fd17b470accb0e5a3751053c1f45a139e3f9eb46ab69e9"
+    },
+    "usable_peak_zooms.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/usable_peak_zooms.png",
+      "sha256": "dd0ae0e6bb78291f4234e33bdd75a4be10fc66ae20c7745e01be088b380569ab"
+    },
+    "usable_peak_zooms_normalized.png": {
+      "path": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232_global_threshold/usable_peak_zooms_normalized.png",
+      "sha256": "42c16aab321ffe0308f59622d9770ef033a3c1f2947ffbc62f3ca25e0b9324ca"
+    }
+  },
+  "baseline_peak_metrics": {
+    "1247.080": {
+      "estimated_background_counts": 2092.483015212224,
+      "net_peak_counts": 1417.3179992609048,
+      "peak_to_background": 0.6773378751259099,
+      "roi_counts": 3509.801014473129,
+      "statistically_reliable": true
+    },
+    "1460.830": {
+      "estimated_background_counts": 1433.4945317332777,
+      "net_peak_counts": 1800.3782820180177,
+      "peak_to_background": 1.2559366235189826,
+      "roi_counts": 3233.8728137512953,
+      "statistically_reliable": true
+    },
+    "209.253": {
+      "estimated_background_counts": 34036.491336217994,
+      "net_peak_counts": 6187.943009791306,
+      "peak_to_background": 0.18180319906261194,
+      "roi_counts": 40224.4343460093,
+      "statistically_reliable": true
+    },
+    "238.632": {
+      "estimated_background_counts": 31097.100310976966,
+      "net_peak_counts": 100829.52382391598,
+      "peak_to_background": 3.2424091897830154,
+      "roi_counts": 131926.62413489295,
+      "statistically_reliable": true
+    },
+    "300.087": {
+      "estimated_background_counts": 19576.446368760968,
+      "net_peak_counts": 8489.549452489577,
+      "peak_to_background": 0.4336614159981936,
+      "roi_counts": 28065.995821250544,
+      "statistically_reliable": true
+    },
+    "409.462": {
+      "estimated_background_counts": 13133.5637642663,
+      "net_peak_counts": 5339.63511236643,
+      "peak_to_background": 0.40656406807834355,
+      "roi_counts": 18473.19887663273,
+      "statistically_reliable": true
+    },
+    "510.770": {
+      "estimated_background_counts": 12301.089029725568,
+      "net_peak_counts": 32302.90815727017,
+      "peak_to_background": 2.626020190505916,
+      "roi_counts": 44603.99718699574,
+      "statistically_reliable": true
+    },
+    "583.191": {
+      "estimated_background_counts": 9231.403492992426,
+      "net_peak_counts": 81581.90146384464,
+      "peak_to_background": 8.83743208990633,
+      "roi_counts": 90813.30495683706,
+      "statistically_reliable": true
+    },
+    "727.330": {
+      "estimated_background_counts": 8461.484012046585,
+      "net_peak_counts": 19636.872806362055,
+      "peak_to_background": 2.320736265459476,
+      "roi_counts": 28098.35681840864,
+      "statistically_reliable": true
+    },
+    "911.204": {
+      "estimated_background_counts": 2419.794060825232,
+      "net_peak_counts": 64165.08139616252,
+      "peak_to_background": 26.51675298941764,
+      "roi_counts": 66584.87545698775,
+      "statistically_reliable": true
+    }
+  },
+  "checkpoint_sha256": "cdb90decef73e1ac5ac846df7f6f2f7642ab2d60b912e648602d67696a089677",
+  "claim_boundary": "Historical Th-232 events directly select the deployment threshold; locked test and Eu-152 remain unopened and unused.",
+  "created_utc": "2026-08-26T03:08:29.212443+00:00",
+  "external_validation": false,
+  "optimization": {
+    "excluded_regions": [
+      {
+        "reason": "nearby approximately 328-keV line contaminates background estimation",
+        "reference_energy_kev": 338.32
+      },
+      {
+        "reason": "not retained in the audited isolated-anchor set",
+        "reference_energy_kev": 968.971
+      },
+      {
+        "reason": "2614-keV double-escape region",
+        "reference_energy_kev": 1592.0
+      },
+      {
+        "reason": "2614-keV single-escape region",
+        "reference_energy_kev": 2103.5
+      },
+      {
+        "reason": "retention-only; no supported higher-energy Compton-background reference",
+        "reference_energy_kev": 2614.533
+      }
+    ],
+    "fpga_threshold_control": {
+      "recommendations_are_advisory": true,
+      "score_range": [
+        0.0,
+        1.0
+      ],
+      "user_adjustable": true
+    },
+    "high_energy_pb_limit_kev": 1460.83,
+    "maximum_reliable_pb_exact": {
+      "all_peak_statistics_reliable": true,
+      "geometric_mean_pb_improvement": 1.276057461215947,
+      "mean_peak_retention": 0.6746445219043548,
+      "minimum_peak_retention": 0.5595828236067557,
+      "per_peak": {
+        "1247.080": {
+          "estimated_background_counts": 1041.3966652143754,
+          "label": "1247.1 keV Ac-228",
+          "net_peak_counts": 1001.6801778686017,
+          "net_peak_retention_vs_no_cut": 0.706743425533968,
+          "pb_improvement_factor_vs_no_cut": 1.4200627517261222,
+          "peak_to_background": 0.9618622867996242,
+          "roi_counts": 2043.0768430829771,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "1460.830": {
+          "estimated_background_counts": 758.831396379839,
+          "label": "1460.8 keV K-40/background",
+          "net_peak_counts": 1227.8161912434925,
+          "net_peak_retention_vs_no_cut": 0.6819767842718316,
+          "pb_improvement_factor_vs_no_cut": 1.2883098876596368,
+          "peak_to_background": 1.6180355703533642,
+          "roi_counts": 1986.6475876233317,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "209.253": {
+          "estimated_background_counts": 17886.316136426183,
+          "label": "209.3 keV Ac-228",
+          "net_peak_counts": 3462.6666217367056,
+          "net_peak_retention_vs_no_cut": 0.5595828236067557,
+          "pb_improvement_factor_vs_no_cut": 1.0648495633373791,
+          "peak_to_background": 0.19359305713516095,
+          "roi_counts": 21348.98275816289,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "238.632": {
+          "estimated_background_counts": 17731.270680970858,
+          "label": "238.6 keV Pb-212",
+          "net_peak_counts": 61876.70852656428,
+          "net_peak_retention_vs_no_cut": 0.6136764925581014,
+          "pb_improvement_factor_vs_no_cut": 1.0762657561845357,
+          "peak_to_background": 3.489693978501505,
+          "roi_counts": 79607.97920753514,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "300.087": {
+          "estimated_background_counts": 10558.01130922701,
+          "label": "300.1 keV Pb-212",
+          "net_peak_counts": 5296.813522508628,
+          "net_peak_retention_vs_no_cut": 0.6239216288392463,
+          "pb_improvement_factor_vs_no_cut": 1.1568625897006863,
+          "peak_to_background": 0.5016866687649368,
+          "roi_counts": 15854.824831735637,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "409.462": {
+          "estimated_background_counts": 6759.537770713876,
+          "label": "409.5 keV Ac-228",
+          "net_peak_counts": 3682.4241169679153,
+          "net_peak_retention_vs_no_cut": 0.6896396550467531,
+          "pb_improvement_factor_vs_no_cut": 1.3399475957017384,
+          "peak_to_background": 0.5447745455202944,
+          "roi_counts": 10441.961887681791,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "510.770": {
+          "estimated_background_counts": 6269.30979170293,
+          "label": "510.8 keV Tl-208/pair",
+          "net_peak_counts": 21960.538433939484,
+          "net_peak_retention_vs_no_cut": 0.6798316215686294,
+          "pb_improvement_factor_vs_no_cut": 1.3339058971381381,
+          "peak_to_background": 3.5028638181196583,
+          "roi_counts": 28229.848225642414,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "583.191": {
+          "estimated_background_counts": 4729.812223055817,
+          "label": "583.2 keV Tl-208",
+          "net_peak_counts": 57106.67192073071,
+          "net_peak_retention_vs_no_cut": 0.6999919209536832,
+          "pb_improvement_factor_vs_no_cut": 1.3662081197767777,
+          "peak_to_background": 12.073771479205885,
+          "roi_counts": 61836.484143786525,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        },
+        "727.330": {
+          "estimated_background_counts": 4496.372140580277,
+          "label": "727.3 keV Bi-212",
+          "net_peak_counts": 14512.520498369026,
+          "net_peak_retention_vs_no_cut": 0.7390443805119105,
+          "pb_improvement_factor_vs_no_cut": 1.3907683826827046,
+          "peak_to_background": 3.2276066225461753,
+          "roi_counts": 19008.892638949303,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "911.204": {
+          "estimated_background_counts": 1309.535017136764,
+          "label": "911.2 keV Ac-228",
+          "net_peak_counts": 48254.48234686995,
+          "net_peak_retention_vs_no_cut": 0.7520364861526674,
+          "pb_improvement_factor_vs_no_cut": 1.389633265932017,
+          "peak_to_background": 36.84856205859701,
+          "roi_counts": 49564.01736400671,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        }
+      },
+      "pooled_net_peak_retention": 0.6787305919048418,
+      "selected_events": 1516276,
+      "selected_fraction": 0.5253697708197048,
+      "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.301971751813051,
+      "sensitivity_mean_peak_retention_excluding_209": 0.6874291550485323,
+      "sensitivity_minimum_peak_retention_excluding_209": 0.6136764925581014,
+      "sensitivity_statistics_reliable_excluding_209": true,
+      "threshold": 0.5035000000000001
+    },
+    "no_brainer_definition": "Highest geometric-mean P/B threshold with pooled net counts across all ten usable peaks retained at >=99%; this is not a per-peak >=99% constraint.",
+    "no_brainer_exact": {
+      "all_peak_statistics_reliable": true,
+      "geometric_mean_pb_improvement": 1.0445522034078112,
+      "mean_peak_retention": 0.9892971721086393,
+      "minimum_peak_retention": 0.9773623317066059,
+      "per_peak": {
+        "1247.080": {
+          "estimated_background_counts": 1872.7502862775066,
+          "label": "1247.1 keV Ac-228",
+          "net_peak_counts": 1385.2332245273794,
+          "net_peak_retention_vs_no_cut": 0.9773623317066059,
+          "pb_improvement_factor_vs_no_cut": 1.0920377873065992,
+          "peak_to_background": 0.7396785544114522,
+          "roi_counts": 3257.983510804886,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "1460.830": {
+          "estimated_background_counts": 1304.9392210876103,
+          "label": "1460.8 keV K-40/background",
+          "net_peak_counts": 1761.3145322575128,
+          "net_peak_retention_vs_no_cut": 0.9783024766791127,
+          "pb_improvement_factor_vs_no_cut": 1.0746793628685618,
+          "peak_to_background": 1.349729170366673,
+          "roi_counts": 3066.253753345123,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "209.253": {
+          "estimated_background_counts": 33523.48974591517,
+          "label": "209.3 keV Ac-228",
+          "net_peak_counts": 6180.711923867988,
+          "net_peak_retention_vs_no_cut": 0.9988314233159749,
+          "pb_improvement_factor_vs_no_cut": 1.014116291105372,
+          "peak_to_background": 0.18436958594446767,
+          "roi_counts": 39704.20166978316,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "238.632": {
+          "estimated_background_counts": 30724.120500129506,
+          "label": "238.6 keV Pb-212",
+          "net_peak_counts": 100748.76629941087,
+          "net_peak_retention_vs_no_cut": 0.9991990686711351,
+          "pb_improvement_factor_vs_no_cut": 1.0113289872356175,
+          "peak_to_background": 3.279142402106716,
+          "roi_counts": 131472.88679954037,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "300.087": {
+          "estimated_background_counts": 19248.22105927359,
+          "label": "300.1 keV Pb-212",
+          "net_peak_counts": 8498.962264916157,
+          "net_peak_retention_vs_no_cut": 1.001108752882501,
+          "pb_improvement_factor_vs_no_cut": 1.018179900872412,
+          "peak_to_background": 0.4415453375532305,
+          "roi_counts": 27747.183324189748,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "409.462": {
+          "estimated_background_counts": 12728.969428612141,
+          "label": "409.5 keV Ac-228",
+          "net_peak_counts": 5323.8282176712055,
+          "net_peak_retention_vs_no_cut": 0.9970397050804809,
+          "pb_improvement_factor_vs_no_cut": 1.02873092873847,
+          "peak_to_background": 0.41824503134592494,
+          "roi_counts": 18052.797646283347,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "510.770": {
+          "estimated_background_counts": 11707.87636007929,
+          "label": "510.8 keV Tl-208/pair",
+          "net_peak_counts": 31826.20611800666,
+          "net_peak_retention_vs_no_cut": 0.9852427516141075,
+          "pb_improvement_factor_vs_no_cut": 1.0351628622267797,
+          "peak_to_background": 2.7183585766694174,
+          "roi_counts": 43534.08247808595,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "583.191": {
+          "estimated_background_counts": 8704.278833095317,
+          "label": "583.2 keV Tl-208",
+          "net_peak_counts": 80329.64904489373,
+          "net_peak_retention_vs_no_cut": 0.9846503648912145,
+          "pb_improvement_factor_vs_no_cut": 1.0442800595119086,
+          "peak_to_background": 9.228754108779832,
+          "roi_counts": 89033.92787798904,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        },
+        "727.330": {
+          "estimated_background_counts": 7877.408865784066,
+          "label": "727.3 keV Bi-212",
+          "net_peak_counts": 19393.373148390307,
+          "net_peak_retention_vs_no_cut": 0.9875998759897829,
+          "pb_improvement_factor_vs_no_cut": 1.0608260537654575,
+          "peak_to_background": 2.461897494317761,
+          "roi_counts": 27270.782014174372,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "911.204": {
+          "estimated_background_counts": 2225.378173420825,
+          "label": "911.2 keV Ac-228",
+          "net_peak_counts": 63115.01793055457,
+          "net_peak_retention_vs_no_cut": 0.9836349702554769,
+          "pb_improvement_factor_vs_no_cut": 1.0695683490889103,
+          "peak_to_background": 28.36147971808985,
+          "roi_counts": 65340.39610397539,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        }
+      },
+      "pooled_net_peak_retention": 0.990091568653522,
+      "selected_events": 2780292,
+      "selected_fraction": 0.9633347562395361,
+      "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.0479898628314108,
+      "sensitivity_mean_peak_retention_excluding_209": 0.9882378108633798,
+      "sensitivity_minimum_peak_retention_excluding_209": 0.9773623317066059,
+      "sensitivity_statistics_reliable_excluding_209": true,
+      "threshold": 0.268
+    },
+    "no_brainer_grid_selection": {
+      "geometric_mean_pb_improvement": 1.0445522034078112,
+      "pooled_net_peak_retention": 0.990091568653522,
+      "threshold": 0.268
+    },
+    "objective": "normalized Pareto knee between geometric mean P/B improvement and minimum usable-peak retention",
+    "recommended_exact": {
+      "all_peak_statistics_reliable": true,
+      "geometric_mean_pb_improvement": 1.2228999959932714,
+      "mean_peak_retention": 0.7872344654783403,
+      "minimum_peak_retention": 0.7707542870623627,
+      "per_peak": {
+        "1247.080": {
+          "estimated_background_counts": 1220.1367427587033,
+          "label": "1247.1 keV Ac-228",
+          "net_peak_counts": 1094.5632090545341,
+          "net_peak_retention_vs_no_cut": 0.7722777877832081,
+          "pb_improvement_factor_vs_no_cut": 1.3244238103250139,
+          "peak_to_background": 0.8970824094517061,
+          "roi_counts": 2314.6999518132375,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "1460.830": {
+          "estimated_background_counts": 874.64731718744,
+          "label": "1460.8 keV K-40/background",
+          "net_peak_counts": 1413.535252379595,
+          "net_peak_retention_vs_no_cut": 0.785132361625238,
+          "pb_improvement_factor_vs_no_cut": 1.2867848845586958,
+          "peak_to_background": 1.6161202631079121,
+          "roi_counts": 2288.182569567035,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "209.253": {
+          "estimated_background_counts": 24704.439004197673,
+          "label": "209.3 keV Ac-228",
+          "net_peak_counts": 4777.831283690404,
+          "net_peak_retention_vs_no_cut": 0.7721194710633802,
+          "pb_improvement_factor_vs_no_cut": 1.0637860541139401,
+          "peak_to_background": 0.19339970775610713,
+          "roi_counts": 29482.270287888077,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "238.632": {
+          "estimated_background_counts": 23269.26384616799,
+          "label": "238.6 keV Pb-212",
+          "net_peak_counts": 79422.81058176667,
+          "net_peak_retention_vs_no_cut": 0.7876939964574958,
+          "pb_improvement_factor_vs_no_cut": 1.0526761561572542,
+          "peak_to_background": 3.4132068425897413,
+          "roi_counts": 102692.07442793465,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "300.087": {
+          "estimated_background_counts": 13487.057800523113,
+          "label": "300.1 keV Pb-212",
+          "net_peak_counts": 6588.37556769997,
+          "net_peak_retention_vs_no_cut": 0.7760571517453044,
+          "pb_improvement_factor_vs_no_cut": 1.1264459183711726,
+          "peak_to_background": 0.4884961320062283,
+          "roi_counts": 20075.433368223083,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "409.462": {
+          "estimated_background_counts": 8330.53019458585,
+          "label": "409.5 keV Ac-228",
+          "net_peak_counts": 4222.4540332641445,
+          "net_peak_retention_vs_no_cut": 0.7907757635882406,
+          "pb_improvement_factor_vs_no_cut": 1.2467038317768024,
+          "peak_to_background": 0.5068649815360357,
+          "roi_counts": 12552.984227849995,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "510.770": {
+          "estimated_background_counts": 7543.255433993567,
+          "label": "510.8 keV Tl-208/pair",
+          "net_peak_counts": 24897.60494679775,
+          "net_peak_retention_vs_no_cut": 0.7707542870623627,
+          "pb_improvement_factor_vs_no_cut": 1.2568999138581824,
+          "peak_to_background": 3.3006445512367337,
+          "roi_counts": 32440.860380791317,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "583.191": {
+          "estimated_background_counts": 5615.477071185284,
+          "label": "583.2 keV Tl-208",
+          "net_peak_counts": 64019.513820821645,
+          "net_peak_retention_vs_no_cut": 0.7847269145742298,
+          "pb_improvement_factor_vs_no_cut": 1.2900294469044395,
+          "peak_to_background": 11.400547630997407,
+          "roi_counts": 69634.99089200693,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        },
+        "727.330": {
+          "estimated_background_counts": 5241.618257562296,
+          "label": "727.3 keV Bi-212",
+          "net_peak_counts": 15918.224443360246,
+          "net_peak_retention_vs_no_cut": 0.8106292992946911,
+          "pb_improvement_factor_vs_no_cut": 1.3085895459446353,
+          "peak_to_background": 3.036891215874864,
+          "roi_counts": 21159.84270092254,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "911.204": {
+          "estimated_background_counts": 1512.4953161929393,
+          "label": "911.2 keV Ac-228",
+          "net_peak_counts": 52755.09401137764,
+          "net_peak_retention_vs_no_cut": 0.8221776215892517,
+          "pb_improvement_factor_vs_no_cut": 1.3153763217414807,
+          "peak_to_background": 34.87950901174759,
+          "roi_counts": 54267.589327570575,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        }
+      },
+      "pooled_net_peak_retention": 0.7928799560571282,
+      "selected_events": 1896635,
+      "selected_fraction": 0.6571591816256611,
+      "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2419875378381031,
+      "sensitivity_mean_peak_retention_excluding_209": 0.7889139093022247,
+      "sensitivity_minimum_peak_retention_excluding_209": 0.7707542870623627,
+      "sensitivity_statistics_reliable_excluding_209": true,
+      "threshold": 0.459
+    },
+    "retention_constraint": null,
+    "score_bin_count": 2000,
+    "selected_operating_points": {
+      "minimum_retention_00pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2760733295349727,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 1.0,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.0,
+        "mean_peak_retention": 0.6746500735670287,
+        "minimum_peak_retention": 0.5595828236067557,
+        "minimum_peak_retention_normalized_loss_fraction": 1.0,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1041.3966652143754,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1001.6801778686017,
+            "net_peak_retention_vs_no_cut": 0.706743425533968,
+            "pb_improvement_factor_vs_no_cut": 1.4200627517261222,
+            "peak_to_background": 0.9618622867996242,
+            "roi_counts": 2043.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 758.831396379839,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1227.8161912434925,
+            "net_peak_retention_vs_no_cut": 0.6819767842718316,
+            "pb_improvement_factor_vs_no_cut": 1.2883098876596368,
+            "peak_to_background": 1.6180355703533642,
+            "roi_counts": 1986.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17886.316136426183,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3462.6666217367056,
+            "net_peak_retention_vs_no_cut": 0.5595828236067557,
+            "pb_improvement_factor_vs_no_cut": 1.0648495633373791,
+            "peak_to_background": 0.19359305713516095,
+            "roi_counts": 21348.98275816289,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17731.270680970858,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61876.70852656428,
+            "net_peak_retention_vs_no_cut": 0.6136764925581014,
+            "pb_improvement_factor_vs_no_cut": 1.0762657561845357,
+            "peak_to_background": 3.489693978501505,
+            "roi_counts": 79607.97920753514,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10558.01130922701,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5296.813522508628,
+            "net_peak_retention_vs_no_cut": 0.6239216288392463,
+            "pb_improvement_factor_vs_no_cut": 1.1568625897006863,
+            "peak_to_background": 0.5016866687649368,
+            "roi_counts": 15854.824831735637,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6759.241332184423,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3682.720555497368,
+            "net_peak_retention_vs_no_cut": 0.6896951716734915,
+            "pb_improvement_factor_vs_no_cut": 1.3401142332275648,
+            "peak_to_background": 0.5448422943506889,
+            "roi_counts": 10441.961887681791,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6269.30979170293,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21960.538433939484,
+            "net_peak_retention_vs_no_cut": 0.6798316215686294,
+            "pb_improvement_factor_vs_no_cut": 1.3339058971381381,
+            "peak_to_background": 3.5028638181196583,
+            "roi_counts": 28229.848225642414,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4729.812223055817,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 57106.67192073071,
+            "net_peak_retention_vs_no_cut": 0.6999919209536832,
+            "pb_improvement_factor_vs_no_cut": 1.3662081197767777,
+            "peak_to_background": 12.073771479205885,
+            "roi_counts": 61836.484143786525,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4496.372140580277,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14512.520498369026,
+            "net_peak_retention_vs_no_cut": 0.7390443805119105,
+            "pb_improvement_factor_vs_no_cut": 1.3907683826827046,
+            "peak_to_background": 3.2276066225461753,
+            "roi_counts": 19008.892638949303,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1309.535017136764,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48254.48234686995,
+            "net_peak_retention_vs_no_cut": 0.7520364861526674,
+            "pb_improvement_factor_vs_no_cut": 1.389633265932017,
+            "peak_to_background": 36.84856205859701,
+            "roi_counts": 49564.01736400671,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6787315132335299,
+        "selected_events": 1516274,
+        "selected_fraction": 0.5253690778459048,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.3019897413524644,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.9935687973770069,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.004177362996767964,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6874353235626144,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.6136764925581014,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.9893914343802389,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5035000000000001
+      },
+      "minimum_retention_10pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2760733295349727,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 1.0,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.0,
+        "mean_peak_retention": 0.6746500735670287,
+        "minimum_peak_retention": 0.5595828236067557,
+        "minimum_peak_retention_normalized_loss_fraction": 1.0,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1041.3966652143754,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1001.6801778686017,
+            "net_peak_retention_vs_no_cut": 0.706743425533968,
+            "pb_improvement_factor_vs_no_cut": 1.4200627517261222,
+            "peak_to_background": 0.9618622867996242,
+            "roi_counts": 2043.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 758.831396379839,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1227.8161912434925,
+            "net_peak_retention_vs_no_cut": 0.6819767842718316,
+            "pb_improvement_factor_vs_no_cut": 1.2883098876596368,
+            "peak_to_background": 1.6180355703533642,
+            "roi_counts": 1986.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17886.316136426183,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3462.6666217367056,
+            "net_peak_retention_vs_no_cut": 0.5595828236067557,
+            "pb_improvement_factor_vs_no_cut": 1.0648495633373791,
+            "peak_to_background": 0.19359305713516095,
+            "roi_counts": 21348.98275816289,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17731.270680970858,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61876.70852656428,
+            "net_peak_retention_vs_no_cut": 0.6136764925581014,
+            "pb_improvement_factor_vs_no_cut": 1.0762657561845357,
+            "peak_to_background": 3.489693978501505,
+            "roi_counts": 79607.97920753514,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10558.01130922701,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5296.813522508628,
+            "net_peak_retention_vs_no_cut": 0.6239216288392463,
+            "pb_improvement_factor_vs_no_cut": 1.1568625897006863,
+            "peak_to_background": 0.5016866687649368,
+            "roi_counts": 15854.824831735637,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6759.241332184423,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3682.720555497368,
+            "net_peak_retention_vs_no_cut": 0.6896951716734915,
+            "pb_improvement_factor_vs_no_cut": 1.3401142332275648,
+            "peak_to_background": 0.5448422943506889,
+            "roi_counts": 10441.961887681791,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6269.30979170293,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21960.538433939484,
+            "net_peak_retention_vs_no_cut": 0.6798316215686294,
+            "pb_improvement_factor_vs_no_cut": 1.3339058971381381,
+            "peak_to_background": 3.5028638181196583,
+            "roi_counts": 28229.848225642414,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4729.812223055817,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 57106.67192073071,
+            "net_peak_retention_vs_no_cut": 0.6999919209536832,
+            "pb_improvement_factor_vs_no_cut": 1.3662081197767777,
+            "peak_to_background": 12.073771479205885,
+            "roi_counts": 61836.484143786525,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4496.372140580277,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14512.520498369026,
+            "net_peak_retention_vs_no_cut": 0.7390443805119105,
+            "pb_improvement_factor_vs_no_cut": 1.3907683826827046,
+            "peak_to_background": 3.2276066225461753,
+            "roi_counts": 19008.892638949303,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1309.535017136764,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48254.48234686995,
+            "net_peak_retention_vs_no_cut": 0.7520364861526674,
+            "pb_improvement_factor_vs_no_cut": 1.389633265932017,
+            "peak_to_background": 36.84856205859701,
+            "roi_counts": 49564.01736400671,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6787315132335299,
+        "selected_events": 1516274,
+        "selected_fraction": 0.5253690778459048,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.3019897413524644,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.9935687973770069,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.004177362996767964,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6874353235626144,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.6136764925581014,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.9893914343802389,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5035000000000001
+      },
+      "minimum_retention_30pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2760733295349727,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 1.0,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.0,
+        "mean_peak_retention": 0.6746500735670287,
+        "minimum_peak_retention": 0.5595828236067557,
+        "minimum_peak_retention_normalized_loss_fraction": 1.0,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1041.3966652143754,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1001.6801778686017,
+            "net_peak_retention_vs_no_cut": 0.706743425533968,
+            "pb_improvement_factor_vs_no_cut": 1.4200627517261222,
+            "peak_to_background": 0.9618622867996242,
+            "roi_counts": 2043.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 758.831396379839,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1227.8161912434925,
+            "net_peak_retention_vs_no_cut": 0.6819767842718316,
+            "pb_improvement_factor_vs_no_cut": 1.2883098876596368,
+            "peak_to_background": 1.6180355703533642,
+            "roi_counts": 1986.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17886.316136426183,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3462.6666217367056,
+            "net_peak_retention_vs_no_cut": 0.5595828236067557,
+            "pb_improvement_factor_vs_no_cut": 1.0648495633373791,
+            "peak_to_background": 0.19359305713516095,
+            "roi_counts": 21348.98275816289,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17731.270680970858,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61876.70852656428,
+            "net_peak_retention_vs_no_cut": 0.6136764925581014,
+            "pb_improvement_factor_vs_no_cut": 1.0762657561845357,
+            "peak_to_background": 3.489693978501505,
+            "roi_counts": 79607.97920753514,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10558.01130922701,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5296.813522508628,
+            "net_peak_retention_vs_no_cut": 0.6239216288392463,
+            "pb_improvement_factor_vs_no_cut": 1.1568625897006863,
+            "peak_to_background": 0.5016866687649368,
+            "roi_counts": 15854.824831735637,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6759.241332184423,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3682.720555497368,
+            "net_peak_retention_vs_no_cut": 0.6896951716734915,
+            "pb_improvement_factor_vs_no_cut": 1.3401142332275648,
+            "peak_to_background": 0.5448422943506889,
+            "roi_counts": 10441.961887681791,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6269.30979170293,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21960.538433939484,
+            "net_peak_retention_vs_no_cut": 0.6798316215686294,
+            "pb_improvement_factor_vs_no_cut": 1.3339058971381381,
+            "peak_to_background": 3.5028638181196583,
+            "roi_counts": 28229.848225642414,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4729.812223055817,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 57106.67192073071,
+            "net_peak_retention_vs_no_cut": 0.6999919209536832,
+            "pb_improvement_factor_vs_no_cut": 1.3662081197767777,
+            "peak_to_background": 12.073771479205885,
+            "roi_counts": 61836.484143786525,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4496.372140580277,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14512.520498369026,
+            "net_peak_retention_vs_no_cut": 0.7390443805119105,
+            "pb_improvement_factor_vs_no_cut": 1.3907683826827046,
+            "peak_to_background": 3.2276066225461753,
+            "roi_counts": 19008.892638949303,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1309.535017136764,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48254.48234686995,
+            "net_peak_retention_vs_no_cut": 0.7520364861526674,
+            "pb_improvement_factor_vs_no_cut": 1.389633265932017,
+            "peak_to_background": 36.84856205859701,
+            "roi_counts": 49564.01736400671,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6787315132335299,
+        "selected_events": 1516274,
+        "selected_fraction": 0.5253690778459048,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.3019897413524644,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.9935687973770069,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.004177362996767964,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6874353235626144,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.6136764925581014,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.9893914343802389,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5035000000000001
+      },
+      "minimum_retention_50pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2760733295349727,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 1.0,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.0,
+        "mean_peak_retention": 0.6746500735670287,
+        "minimum_peak_retention": 0.5595828236067557,
+        "minimum_peak_retention_normalized_loss_fraction": 1.0,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1041.3966652143754,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1001.6801778686017,
+            "net_peak_retention_vs_no_cut": 0.706743425533968,
+            "pb_improvement_factor_vs_no_cut": 1.4200627517261222,
+            "peak_to_background": 0.9618622867996242,
+            "roi_counts": 2043.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 758.831396379839,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1227.8161912434925,
+            "net_peak_retention_vs_no_cut": 0.6819767842718316,
+            "pb_improvement_factor_vs_no_cut": 1.2883098876596368,
+            "peak_to_background": 1.6180355703533642,
+            "roi_counts": 1986.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17886.316136426183,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3462.6666217367056,
+            "net_peak_retention_vs_no_cut": 0.5595828236067557,
+            "pb_improvement_factor_vs_no_cut": 1.0648495633373791,
+            "peak_to_background": 0.19359305713516095,
+            "roi_counts": 21348.98275816289,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17731.270680970858,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61876.70852656428,
+            "net_peak_retention_vs_no_cut": 0.6136764925581014,
+            "pb_improvement_factor_vs_no_cut": 1.0762657561845357,
+            "peak_to_background": 3.489693978501505,
+            "roi_counts": 79607.97920753514,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10558.01130922701,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5296.813522508628,
+            "net_peak_retention_vs_no_cut": 0.6239216288392463,
+            "pb_improvement_factor_vs_no_cut": 1.1568625897006863,
+            "peak_to_background": 0.5016866687649368,
+            "roi_counts": 15854.824831735637,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6759.241332184423,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3682.720555497368,
+            "net_peak_retention_vs_no_cut": 0.6896951716734915,
+            "pb_improvement_factor_vs_no_cut": 1.3401142332275648,
+            "peak_to_background": 0.5448422943506889,
+            "roi_counts": 10441.961887681791,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6269.30979170293,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21960.538433939484,
+            "net_peak_retention_vs_no_cut": 0.6798316215686294,
+            "pb_improvement_factor_vs_no_cut": 1.3339058971381381,
+            "peak_to_background": 3.5028638181196583,
+            "roi_counts": 28229.848225642414,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4729.812223055817,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 57106.67192073071,
+            "net_peak_retention_vs_no_cut": 0.6999919209536832,
+            "pb_improvement_factor_vs_no_cut": 1.3662081197767777,
+            "peak_to_background": 12.073771479205885,
+            "roi_counts": 61836.484143786525,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4496.372140580277,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14512.520498369026,
+            "net_peak_retention_vs_no_cut": 0.7390443805119105,
+            "pb_improvement_factor_vs_no_cut": 1.3907683826827046,
+            "peak_to_background": 3.2276066225461753,
+            "roi_counts": 19008.892638949303,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1309.535017136764,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48254.48234686995,
+            "net_peak_retention_vs_no_cut": 0.7520364861526674,
+            "pb_improvement_factor_vs_no_cut": 1.389633265932017,
+            "peak_to_background": 36.84856205859701,
+            "roi_counts": 49564.01736400671,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6787315132335299,
+        "selected_events": 1516274,
+        "selected_fraction": 0.5253690778459048,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.3019897413524644,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.9935687973770069,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.004177362996767964,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6874353235626144,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.6136764925581014,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.9893914343802389,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5035000000000001
+      },
+      "minimum_retention_70pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2456242706039076,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.8897066261983564,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.2090320917100803,
+        "mean_peak_retention": 0.7500814150821369,
+        "minimum_peak_retention": 0.7002192434778874,
+        "minimum_peak_retention_normalized_loss_fraction": 0.6806745344882761,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1156.1604849399532,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1049.8104721622835,
+            "net_peak_retention_vs_no_cut": 0.7407021379180487,
+            "pb_improvement_factor_vs_no_cut": 1.3405635836147745,
+            "peak_to_background": 0.9080144891968064,
+            "roi_counts": 2205.9709571022368,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 827.30125843492,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1367.7440040117622,
+            "net_peak_retention_vs_no_cut": 0.7596981243734389,
+            "pb_improvement_factor_vs_no_cut": 1.3163561592031838,
+            "peak_to_background": 1.6532599099380632,
+            "roi_counts": 2195.045262446682,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 22452.19191631424,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 4332.91677300035,
+            "net_peak_retention_vs_no_cut": 0.7002192434778874,
+            "pb_improvement_factor_vs_no_cut": 1.0615002001996368,
+            "peak_to_background": 0.19298413220189697,
+            "roi_counts": 26785.10868931459,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 21478.709449470636,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 73805.97739089378,
+            "net_peak_retention_vs_no_cut": 0.7319877610429374,
+            "pb_improvement_factor_vs_no_cut": 1.0597795405310384,
+            "peak_to_background": 3.4362389213618605,
+            "roi_counts": 95284.68684036442,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 12426.030557381166,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 6181.832356312732,
+            "net_peak_retention_vs_no_cut": 0.7281696621132112,
+            "pb_improvement_factor_vs_no_cut": 1.1471864866170398,
+            "peak_to_background": 0.4974905162003382,
+            "roi_counts": 18607.862913693898,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 7767.039117951252,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 4053.4164633227538,
+            "net_peak_retention_vs_no_cut": 0.7591186247792787,
+            "pb_improvement_factor_vs_no_cut": 1.2836207867343168,
+            "peak_to_background": 0.5218740889246277,
+            "roi_counts": 11820.455581274005,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 7093.264240361072,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 23854.811873588187,
+            "net_peak_retention_vs_no_cut": 0.73847257830312,
+            "pb_improvement_factor_vs_no_cut": 1.2806539590093229,
+            "peak_to_background": 3.363023153409818,
+            "roi_counts": 30948.076113949257,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 5294.579949364922,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 61735.032231706035,
+            "net_peak_retention_vs_no_cut": 0.7567246058743272,
+            "pb_improvement_factor_vs_no_cut": 1.319392706637568,
+            "peak_to_background": 11.66004344482721,
+            "roi_counts": 67029.61218107096,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 5000.641093887363,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 15446.175228362994,
+            "net_peak_retention_vs_no_cut": 0.786590379266431,
+            "pb_improvement_factor_vs_no_cut": 1.3309737278142846,
+            "peak_to_background": 3.0888389985124,
+            "roi_counts": 20446.816322250357,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1413.7360965144562,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 51276.30782180747,
+            "net_peak_retention_vs_no_cut": 0.7991310336726873,
+            "pb_improvement_factor_vs_no_cut": 1.3678171858735757,
+            "peak_to_background": 36.27007045248996,
+            "roi_counts": 52690.04391832193,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.7555654539286271,
+        "selected_events": 1763939,
+        "selected_fraction": 0.6111817559401714,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2679601810980776,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.8816090032932814,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.18543959416064304,
+        "sensitivity_mean_peak_retention_excluding_209": 0.7556216563714978,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.7281696621132112,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.6961694091326384,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.47500000000000003
+      },
+      "minimum_retention_80pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.1993791718987985,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.7221964259808783,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.26886114736588784,
+        "mean_peak_retention": 0.8207835370648379,
+        "minimum_peak_retention": 0.8003433566329412,
+        "minimum_peak_retention_normalized_loss_fraction": 0.45333527861499046,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1281.4902357741234,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1134.341044944757,
+            "net_peak_retention_vs_no_cut": 0.8003433566329412,
+            "pb_improvement_factor_vs_no_cut": 1.3068417014357603,
+            "peak_to_background": 0.8851733811764266,
+            "roi_counts": 2415.8312807188804,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 919.7554166301327,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1446.7728679035015,
+            "net_peak_retention_vs_no_cut": 0.8035938237834301,
+            "pb_improvement_factor_vs_no_cut": 1.2524496527009008,
+            "peak_to_background": 1.5729973879406918,
+            "roi_counts": 2366.528284533634,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 26855.210373982438,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 5129.31768229157,
+            "net_peak_retention_vs_no_cut": 0.8289212867951996,
+            "pb_improvement_factor_vs_no_cut": 1.0505809414081164,
+            "peak_to_background": 0.19099897602220603,
+            "roi_counts": 31984.528056274008,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 25070.11606255306,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 84885.25636554859,
+            "net_peak_retention_vs_no_cut": 0.8418690592428888,
+            "pb_improvement_factor_vs_no_cut": 1.0442586910512237,
+            "peak_to_background": 3.385913976375271,
+            "roi_counts": 109955.37242810165,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 14539.95435638081,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 6938.682599796595,
+            "net_peak_retention_vs_no_cut": 0.8173204760308939,
+            "pb_improvement_factor_vs_no_cut": 1.100431959615288,
+            "peak_to_background": 0.4772148818164328,
+            "roi_counts": 21478.636956177404,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 8961.79318061325,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 4379.228982193677,
+            "net_peak_retention_vs_no_cut": 0.820136374497111,
+            "pb_improvement_factor_vs_no_cut": 1.2019149686642199,
+            "peak_to_background": 0.48865543914438003,
+            "roi_counts": 13341.022162806927,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 8037.565886448704,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 25897.539465610986,
+            "net_peak_retention_vs_no_cut": 0.8017092250495231,
+            "pb_improvement_factor_vs_no_cut": 1.226975516295746,
+            "peak_to_background": 3.22206247904905,
+            "roi_counts": 33935.10535205969,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 5924.723074567382,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 66428.70520344762,
+            "net_peak_retention_vs_no_cut": 0.8142578686142466,
+            "pb_improvement_factor_vs_no_cut": 1.2687078936716363,
+            "peak_to_background": 11.212119852251185,
+            "roi_counts": 72353.42827801501,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 5514.156111326232,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 16382.876654332293,
+            "net_peak_retention_vs_no_cut": 0.8342915298114313,
+            "pb_improvement_factor_vs_no_cut": 1.2802220862744926,
+            "peak_to_background": 2.971057823459405,
+            "roi_counts": 21897.032765658525,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1571.854611647605,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 54244.67024498187,
+            "net_peak_retention_vs_no_cut": 0.8453923701907132,
+            "pb_improvement_factor_vs_no_cut": 1.3014406175328095,
+            "peak_to_background": 34.509979385512665,
+            "roi_counts": 55816.524856629476,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.8294218157134907,
+        "selected_events": 2034221,
+        "selected_fraction": 0.7048309282522647,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2171620133512502,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.7144792385167239,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.20314982428430872,
+        "sensitivity_mean_peak_retention_excluding_209": 0.8198793426503532,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.8003433566329412,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.5113294142324152,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.4415
+      },
+      "minimum_retention_90pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.1031515100373672,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.3736380845303643,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.14716151943706784,
+        "mean_peak_retention": 0.9415065594550855,
+        "minimum_peak_retention": 0.9002558306823696,
+        "minimum_peak_retention_normalized_loss_fraction": 0.22647656509329644,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1597.6713980597713,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1275.9487927656999,
+            "net_peak_retention_vs_no_cut": 0.9002558306823696,
+            "pb_improvement_factor_vs_no_cut": 1.1790722656337842,
+            "peak_to_background": 0.7986303030242798,
+            "roi_counts": 2873.620190825471,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 1143.1551037043916,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1638.0151395975065,
+            "net_peak_retention_vs_no_cut": 0.9098172067269548,
+            "pb_improvement_factor_vs_no_cut": 1.140893293039255,
+            "peak_to_background": 1.4328896702551752,
+            "roi_counts": 2781.170243301898,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 32753.962987036106,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 6035.531916473043,
+            "net_peak_retention_vs_no_cut": 0.9753696675814402,
+            "pb_improvement_factor_vs_no_cut": 1.0135616643819625,
+            "peak_to_background": 0.18426875303186618,
+            "roi_counts": 38789.49490350915,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 29921.995343975814,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 98907.6940632492,
+            "net_peak_retention_vs_no_cut": 0.980939811200309,
+            "pb_improvement_factor_vs_no_cut": 1.019463553725479,
+            "peak_to_background": 3.3055179952483438,
+            "roi_counts": 128829.68940722501,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 18150.53661674442,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 8204.287811144572,
+            "net_peak_retention_vs_no_cut": 0.9663984946502253,
+            "pb_improvement_factor_vs_no_cut": 1.042318951821978,
+            "peak_to_background": 0.45201351256887184,
+            "roi_counts": 26354.82442788899,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 11429.914307380503,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 5137.517314855955,
+            "net_peak_retention_vs_no_cut": 0.9621476386949408,
+            "pb_improvement_factor_vs_no_cut": 1.1055574891999573,
+            "peak_to_background": 0.44947995030361404,
+            "roi_counts": 16567.431622236458,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 10257.787510613995,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 29874.483802708335,
+            "net_peak_retention_vs_no_cut": 0.9248233520419031,
+            "pb_improvement_factor_vs_no_cut": 1.1090436781289628,
+            "peak_to_background": 2.9123710909196006,
+            "roi_counts": 40132.27131332233,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 7565.708555164504,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 75595.75245683033,
+            "net_peak_retention_vs_no_cut": 0.9266240563212756,
+            "pb_improvement_factor_vs_no_cut": 1.1306331043344082,
+            "peak_to_background": 9.99189327815531,
+            "roi_counts": 83161.46101199483,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 6859.710969655577,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 18340.14569678081,
+            "net_peak_retention_vs_no_cut": 0.9339646835640183,
+            "pb_improvement_factor_vs_no_cut": 1.152049594035575,
+            "peak_to_background": 2.6736032724862255,
+            "roi_counts": 25199.85666643639,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1960.836479590243,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 59976.696281370314,
+            "net_peak_retention_vs_no_cut": 0.9347248530874194,
+            "pb_improvement_factor_vs_no_cut": 1.1535085518601393,
+            "peak_to_background": 30.58730134085616,
+            "roi_counts": 61937.53276096056,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.9478943890842646,
+        "selected_events": 2558527,
+        "selected_fraction": 0.8864960888558725,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.1135824674568084,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.3736947986668861,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.11824560944798324,
+        "sensitivity_mean_peak_retention_excluding_209": 0.9377439918854906,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.9002558306823696,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.25544918921890286,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.353
+      }
+    },
+    "sensitivity_recommended_exact_excluding_209": {
+      "all_peak_statistics_reliable": true,
+      "geometric_mean_pb_improvement": 1.198666358606428,
+      "mean_peak_retention": 0.8237465424162849,
+      "minimum_peak_retention": 0.8045843508361298,
+      "per_peak": {
+        "1247.080": {
+          "estimated_background_counts": 1284.437203009847,
+          "label": "1247.1 keV Ac-228",
+          "net_peak_counts": 1140.3925727847359,
+          "net_peak_retention_vs_no_cut": 0.8046130602866975,
+          "pb_improvement_factor_vs_no_cut": 1.3107991255022347,
+          "peak_to_background": 0.8878538943845845,
+          "roi_counts": 2424.829775794583,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "1460.830": {
+          "estimated_background_counts": 922.7319838799856,
+          "label": "1460.8 keV K-40/background",
+          "net_peak_counts": 1451.090055763498,
+          "net_peak_retention_vs_no_cut": 0.8059917575416387,
+          "pb_improvement_factor_vs_no_cut": 1.2521347446956026,
+          "peak_to_background": 1.5726018834437985,
+          "roi_counts": 2373.8220396434835,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "209.253": {
+          "estimated_background_counts": 27023.98363913305,
+          "label": "209.3 keV Ac-228",
+          "net_peak_counts": 5131.726278564562,
+          "net_peak_retention_vs_no_cut": 0.8293105270110808,
+          "pb_improvement_factor_vs_no_cut": 1.044509978416808,
+          "peak_to_background": 0.18989525552899542,
+          "roi_counts": 32155.70991769761,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "238.632": {
+          "estimated_background_counts": 25207.744416056434,
+          "label": "238.6 keV Pb-212",
+          "net_peak_counts": 85297.15409868375,
+          "net_peak_retention_vs_no_cut": 0.8459541497750476,
+          "pb_improvement_factor_vs_no_cut": 1.0435967859657227,
+          "peak_to_background": 3.383767809243278,
+          "roi_counts": 110504.89851474018,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "300.087": {
+          "estimated_background_counts": 14616.100244505897,
+          "label": "300.1 keV Pb-212",
+          "net_peak_counts": 6976.207858771364,
+          "net_peak_retention_vs_no_cut": 0.8217406468756216,
+          "pb_improvement_factor_vs_no_cut": 1.100619278294733,
+          "peak_to_background": 0.47729611470020383,
+          "roi_counts": 21592.30810327726,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "409.462": {
+          "estimated_background_counts": 9002.47049947334,
+          "label": "409.5 keV Ac-228",
+          "net_peak_counts": 4405.801277986253,
+          "net_peak_retention_vs_no_cut": 0.8251127998957369,
+          "pb_improvement_factor_vs_no_cut": 1.2037441911947309,
+          "peak_to_background": 0.48939913529780515,
+          "roi_counts": 13408.271777459593,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "510.770": {
+          "estimated_background_counts": 8075.981511821907,
+          "label": "510.8 keV Tl-208/pair",
+          "net_peak_counts": 25990.41438983634,
+          "net_peak_retention_vs_no_cut": 0.8045843508361298,
+          "pb_improvement_factor_vs_no_cut": 1.2255183740912754,
+          "peak_to_background": 3.2182359941996714,
+          "roi_counts": 34066.395901658245,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "583.191": {
+          "estimated_background_counts": 5955.571381059717,
+          "label": "583.2 keV Tl-208",
+          "net_peak_counts": 66611.17769444217,
+          "net_peak_retention_vs_no_cut": 0.8164945471878077,
+          "pb_improvement_factor_vs_no_cut": 1.2656032700556121,
+          "peak_to_background": 11.184682951879854,
+          "roi_counts": 72566.7490755019,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        },
+        "727.330": {
+          "estimated_background_counts": 5536.145883323603,
+          "label": "727.3 keV Bi-212",
+          "net_peak_counts": 16422.31804392543,
+          "net_peak_retention_vs_no_cut": 0.8363000670149904,
+          "pb_improvement_factor_vs_no_cut": 1.2782068600534378,
+          "peak_to_background": 2.966381014885098,
+          "roi_counts": 21958.46392724903,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "911.204": {
+          "estimated_background_counts": 1573.5748881440895,
+          "label": "911.2 keV Ac-228",
+          "net_peak_counts": 54371.149087803715,
+          "net_peak_retention_vs_no_cut": 0.8473635177380988,
+          "pb_improvement_factor_vs_no_cut": 1.3030490147189435,
+          "peak_to_background": 34.55262885640626,
+          "roi_counts": 55944.7239759478,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        }
+      },
+      "pooled_net_peak_retention": 0.8323123737077255,
+      "selected_events": 2045603,
+      "selected_fraction": 0.7087746421483296,
+      "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2171417925559138,
+      "sensitivity_mean_peak_retention_excluding_209": 0.8231283219057521,
+      "sensitivity_minimum_peak_retention_excluding_209": 0.8045843508361298,
+      "sensitivity_statistics_reliable_excluding_209": true,
+      "threshold": 0.44
+    },
+    "sensitivity_selected_operating_points_excluding_209": {
+      "minimum_retention_00pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2756819745030534,
+        "mean_peak_retention": 0.6712685980045595,
+        "minimum_peak_retention": 0.5456956820386367,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1036.420712688795,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1000.6561303941821,
+            "net_peak_retention_vs_no_cut": 0.7060209006842493,
+            "pb_improvement_factor_vs_no_cut": 1.4254218629362982,
+            "peak_to_background": 0.9654922157992882,
+            "roi_counts": 2037.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 753.8340093189785,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1228.813578304353,
+            "net_peak_retention_vs_no_cut": 0.6825307717703604,
+            "pb_improvement_factor_vs_no_cut": 1.2979039377069306,
+            "peak_to_background": 1.6300850891756344,
+            "roi_counts": 1982.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17733.848062710033,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3376.7337811442812,
+            "net_peak_retention_vs_no_cut": 0.5456956820386367,
+            "pb_improvement_factor_vs_no_cut": 1.0473511607994046,
+            "peak_to_background": 0.19041179157527185,
+            "roi_counts": 21110.581843854314,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17609.13730216439,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61459.04421009965,
+            "net_peak_retention_vs_no_cut": 0.609534210609076,
+            "pb_improvement_factor_vs_no_cut": 1.076415395315977,
+            "peak_to_background": 3.4901791697964413,
+            "roi_counts": 79068.18151226404,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10473.998459859125,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5269.975516417044,
+            "net_peak_retention_vs_no_cut": 0.6207603296157976,
+            "pb_improvement_factor_vs_no_cut": 1.1602332525778785,
+            "peak_to_background": 0.5031483952011125,
+            "roi_counts": 15743.97397627617,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6733.228166892321,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3659.113581128684,
+            "net_peak_retention_vs_no_cut": 0.685274087859354,
+            "pb_improvement_factor_vs_no_cut": 1.3366680447803965,
+            "peak_to_background": 0.5434411979562435,
+            "roi_counts": 10392.341748021005,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6235.058039467957,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21900.11491019035,
+            "net_peak_retention_vs_no_cut": 0.677961092653556,
+            "pb_improvement_factor_vs_no_cut": 1.3375432444463735,
+            "peak_to_background": 3.512415565590967,
+            "roi_counts": 28135.172949658307,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4719.453501099645,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 56921.85641020823,
+            "net_peak_retention_vs_no_cut": 0.6977265225355747,
+            "pb_improvement_factor_vs_no_cut": 1.3647756156062547,
+            "peak_to_background": 12.061111820880381,
+            "roi_counts": 61641.30991130788,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4477.988953928154,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14468.631183442209,
+            "net_peak_retention_vs_no_cut": 0.7368093344656481,
+            "pb_improvement_factor_vs_no_cut": 1.3922545293549184,
+            "peak_to_background": 3.231055577024174,
+            "roi_counts": 18946.620137370362,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1307.8147406402795,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48147.747690429685,
+            "net_peak_retention_vs_no_cut": 0.7503730478133428,
+            "pb_improvement_factor_vs_no_cut": 1.3883833757777506,
+            "peak_to_background": 36.81541903011242,
+            "roi_counts": 49455.562431069964,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6757791324348101,
+        "selected_events": 1507477,
+        "selected_fraction": 0.5223210325864,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.303944469824041,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 1.0,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.0,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6852211442229954,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.609534210609076,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 1.0,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5045000000000001
+      },
+      "minimum_retention_10pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2756819745030534,
+        "mean_peak_retention": 0.6712685980045595,
+        "minimum_peak_retention": 0.5456956820386367,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1036.420712688795,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1000.6561303941821,
+            "net_peak_retention_vs_no_cut": 0.7060209006842493,
+            "pb_improvement_factor_vs_no_cut": 1.4254218629362982,
+            "peak_to_background": 0.9654922157992882,
+            "roi_counts": 2037.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 753.8340093189785,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1228.813578304353,
+            "net_peak_retention_vs_no_cut": 0.6825307717703604,
+            "pb_improvement_factor_vs_no_cut": 1.2979039377069306,
+            "peak_to_background": 1.6300850891756344,
+            "roi_counts": 1982.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17733.848062710033,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3376.7337811442812,
+            "net_peak_retention_vs_no_cut": 0.5456956820386367,
+            "pb_improvement_factor_vs_no_cut": 1.0473511607994046,
+            "peak_to_background": 0.19041179157527185,
+            "roi_counts": 21110.581843854314,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17609.13730216439,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61459.04421009965,
+            "net_peak_retention_vs_no_cut": 0.609534210609076,
+            "pb_improvement_factor_vs_no_cut": 1.076415395315977,
+            "peak_to_background": 3.4901791697964413,
+            "roi_counts": 79068.18151226404,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10473.998459859125,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5269.975516417044,
+            "net_peak_retention_vs_no_cut": 0.6207603296157976,
+            "pb_improvement_factor_vs_no_cut": 1.1602332525778785,
+            "peak_to_background": 0.5031483952011125,
+            "roi_counts": 15743.97397627617,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6733.228166892321,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3659.113581128684,
+            "net_peak_retention_vs_no_cut": 0.685274087859354,
+            "pb_improvement_factor_vs_no_cut": 1.3366680447803965,
+            "peak_to_background": 0.5434411979562435,
+            "roi_counts": 10392.341748021005,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6235.058039467957,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21900.11491019035,
+            "net_peak_retention_vs_no_cut": 0.677961092653556,
+            "pb_improvement_factor_vs_no_cut": 1.3375432444463735,
+            "peak_to_background": 3.512415565590967,
+            "roi_counts": 28135.172949658307,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4719.453501099645,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 56921.85641020823,
+            "net_peak_retention_vs_no_cut": 0.6977265225355747,
+            "pb_improvement_factor_vs_no_cut": 1.3647756156062547,
+            "peak_to_background": 12.061111820880381,
+            "roi_counts": 61641.30991130788,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4477.988953928154,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14468.631183442209,
+            "net_peak_retention_vs_no_cut": 0.7368093344656481,
+            "pb_improvement_factor_vs_no_cut": 1.3922545293549184,
+            "peak_to_background": 3.231055577024174,
+            "roi_counts": 18946.620137370362,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1307.8147406402795,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48147.747690429685,
+            "net_peak_retention_vs_no_cut": 0.7503730478133428,
+            "pb_improvement_factor_vs_no_cut": 1.3883833757777506,
+            "peak_to_background": 36.81541903011242,
+            "roi_counts": 49455.562431069964,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6757791324348101,
+        "selected_events": 1507477,
+        "selected_fraction": 0.5223210325864,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.303944469824041,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 1.0,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.0,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6852211442229954,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.609534210609076,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 1.0,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5045000000000001
+      },
+      "minimum_retention_30pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2756819745030534,
+        "mean_peak_retention": 0.6712685980045595,
+        "minimum_peak_retention": 0.5456956820386367,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1036.420712688795,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1000.6561303941821,
+            "net_peak_retention_vs_no_cut": 0.7060209006842493,
+            "pb_improvement_factor_vs_no_cut": 1.4254218629362982,
+            "peak_to_background": 0.9654922157992882,
+            "roi_counts": 2037.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 753.8340093189785,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1228.813578304353,
+            "net_peak_retention_vs_no_cut": 0.6825307717703604,
+            "pb_improvement_factor_vs_no_cut": 1.2979039377069306,
+            "peak_to_background": 1.6300850891756344,
+            "roi_counts": 1982.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17733.848062710033,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3376.7337811442812,
+            "net_peak_retention_vs_no_cut": 0.5456956820386367,
+            "pb_improvement_factor_vs_no_cut": 1.0473511607994046,
+            "peak_to_background": 0.19041179157527185,
+            "roi_counts": 21110.581843854314,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17609.13730216439,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61459.04421009965,
+            "net_peak_retention_vs_no_cut": 0.609534210609076,
+            "pb_improvement_factor_vs_no_cut": 1.076415395315977,
+            "peak_to_background": 3.4901791697964413,
+            "roi_counts": 79068.18151226404,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10473.998459859125,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5269.975516417044,
+            "net_peak_retention_vs_no_cut": 0.6207603296157976,
+            "pb_improvement_factor_vs_no_cut": 1.1602332525778785,
+            "peak_to_background": 0.5031483952011125,
+            "roi_counts": 15743.97397627617,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6733.228166892321,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3659.113581128684,
+            "net_peak_retention_vs_no_cut": 0.685274087859354,
+            "pb_improvement_factor_vs_no_cut": 1.3366680447803965,
+            "peak_to_background": 0.5434411979562435,
+            "roi_counts": 10392.341748021005,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6235.058039467957,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21900.11491019035,
+            "net_peak_retention_vs_no_cut": 0.677961092653556,
+            "pb_improvement_factor_vs_no_cut": 1.3375432444463735,
+            "peak_to_background": 3.512415565590967,
+            "roi_counts": 28135.172949658307,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4719.453501099645,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 56921.85641020823,
+            "net_peak_retention_vs_no_cut": 0.6977265225355747,
+            "pb_improvement_factor_vs_no_cut": 1.3647756156062547,
+            "peak_to_background": 12.061111820880381,
+            "roi_counts": 61641.30991130788,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4477.988953928154,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14468.631183442209,
+            "net_peak_retention_vs_no_cut": 0.7368093344656481,
+            "pb_improvement_factor_vs_no_cut": 1.3922545293549184,
+            "peak_to_background": 3.231055577024174,
+            "roi_counts": 18946.620137370362,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1307.8147406402795,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48147.747690429685,
+            "net_peak_retention_vs_no_cut": 0.7503730478133428,
+            "pb_improvement_factor_vs_no_cut": 1.3883833757777506,
+            "peak_to_background": 36.81541903011242,
+            "roi_counts": 49455.562431069964,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6757791324348101,
+        "selected_events": 1507477,
+        "selected_fraction": 0.5223210325864,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.303944469824041,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 1.0,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.0,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6852211442229954,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.609534210609076,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 1.0,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5045000000000001
+      },
+      "minimum_retention_50pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.2756819745030534,
+        "mean_peak_retention": 0.6712685980045595,
+        "minimum_peak_retention": 0.5456956820386367,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1036.420712688795,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1000.6561303941821,
+            "net_peak_retention_vs_no_cut": 0.7060209006842493,
+            "pb_improvement_factor_vs_no_cut": 1.4254218629362982,
+            "peak_to_background": 0.9654922157992882,
+            "roi_counts": 2037.0768430829771,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 753.8340093189785,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1228.813578304353,
+            "net_peak_retention_vs_no_cut": 0.6825307717703604,
+            "pb_improvement_factor_vs_no_cut": 1.2979039377069306,
+            "peak_to_background": 1.6300850891756344,
+            "roi_counts": 1982.6475876233317,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 17733.848062710033,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 3376.7337811442812,
+            "net_peak_retention_vs_no_cut": 0.5456956820386367,
+            "pb_improvement_factor_vs_no_cut": 1.0473511607994046,
+            "peak_to_background": 0.19041179157527185,
+            "roi_counts": 21110.581843854314,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 17609.13730216439,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 61459.04421009965,
+            "net_peak_retention_vs_no_cut": 0.609534210609076,
+            "pb_improvement_factor_vs_no_cut": 1.076415395315977,
+            "peak_to_background": 3.4901791697964413,
+            "roi_counts": 79068.18151226404,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 10473.998459859125,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5269.975516417044,
+            "net_peak_retention_vs_no_cut": 0.6207603296157976,
+            "pb_improvement_factor_vs_no_cut": 1.1602332525778785,
+            "peak_to_background": 0.5031483952011125,
+            "roi_counts": 15743.97397627617,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 6733.228166892321,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3659.113581128684,
+            "net_peak_retention_vs_no_cut": 0.685274087859354,
+            "pb_improvement_factor_vs_no_cut": 1.3366680447803965,
+            "peak_to_background": 0.5434411979562435,
+            "roi_counts": 10392.341748021005,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6235.058039467957,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 21900.11491019035,
+            "net_peak_retention_vs_no_cut": 0.677961092653556,
+            "pb_improvement_factor_vs_no_cut": 1.3375432444463735,
+            "peak_to_background": 3.512415565590967,
+            "roi_counts": 28135.172949658307,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 4719.453501099645,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 56921.85641020823,
+            "net_peak_retention_vs_no_cut": 0.6977265225355747,
+            "pb_improvement_factor_vs_no_cut": 1.3647756156062547,
+            "peak_to_background": 12.061111820880381,
+            "roi_counts": 61641.30991130788,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4477.988953928154,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 14468.631183442209,
+            "net_peak_retention_vs_no_cut": 0.7368093344656481,
+            "pb_improvement_factor_vs_no_cut": 1.3922545293549184,
+            "peak_to_background": 3.231055577024174,
+            "roi_counts": 18946.620137370362,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1307.8147406402795,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 48147.747690429685,
+            "net_peak_retention_vs_no_cut": 0.7503730478133428,
+            "pb_improvement_factor_vs_no_cut": 1.3883833757777506,
+            "peak_to_background": 36.81541903011242,
+            "roi_counts": 49455.562431069964,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.6757791324348101,
+        "selected_events": 1507477,
+        "selected_fraction": 0.5223210325864,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.303944469824041,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 1.0,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.0,
+        "sensitivity_mean_peak_retention_excluding_209": 0.6852211442229954,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.609534210609076,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 1.0,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.5045000000000001
+      },
+      "minimum_retention_70pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.254404352146328,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.9215100660931476,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.13726829644372196,
+        "mean_peak_retention": 0.7296180793834794,
+        "minimum_peak_retention": 0.6546064542013589,
+        "minimum_peak_retention_normalized_loss_fraction": 0.7842417696494256,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1124.291583703743,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1037.7131638011097,
+            "net_peak_retention_vs_no_cut": 0.7321667856770679,
+            "pb_improvement_factor_vs_no_cut": 1.3626772498685678,
+            "peak_to_background": 0.9229929129083944,
+            "roi_counts": 2162.0047475048527,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 810.8753277953324,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1329.4970771680496,
+            "net_peak_retention_vs_no_cut": 0.7384542962148132,
+            "pb_improvement_factor_vs_no_cut": 1.3054660306868617,
+            "peak_to_background": 1.6395825986995858,
+            "roi_counts": 2140.372404963382,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 21208.752511621286,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 4050.6674324395717,
+            "net_peak_retention_vs_no_cut": 0.6546064542013589,
+            "pb_improvement_factor_vs_no_cut": 1.0505335896040269,
+            "peak_to_background": 0.1909903673127412,
+            "roi_counts": 25259.419944060857,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 20517.582952674256,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 70638.7814876752,
+            "net_peak_retention_vs_no_cut": 0.700576367007698,
+            "pb_improvement_factor_vs_no_cut": 1.0618157904169034,
+            "peak_to_background": 3.4428412767044843,
+            "roi_counts": 91156.36444034945,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 11891.914864271677,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 5953.794030458064,
+            "net_peak_retention_vs_no_cut": 0.7013085987398427,
+            "pb_improvement_factor_vs_no_cut": 1.1544928069094684,
+            "peak_to_background": 0.5006589854040892,
+            "roi_counts": 17845.70889472974,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 7493.8109583634305,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 3964.543765188233,
+            "net_peak_retention_vs_no_cut": 0.7424746601142225,
+            "pb_improvement_factor_vs_no_cut": 1.3012522395002712,
+            "peak_to_background": 0.5290424040872853,
+            "roi_counts": 11458.354723551663,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 6866.355945846064,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 23381.672685431076,
+            "net_peak_retention_vs_no_cut": 0.7238256249745347,
+            "pb_improvement_factor_vs_no_cut": 1.296734909321888,
+            "peak_to_background": 3.405252053613136,
+            "roi_counts": 30248.028631277142,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 5123.337522719163,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 60519.4895975265,
+            "net_peak_retention_vs_no_cut": 0.7418249453813901,
+            "pb_improvement_factor_vs_no_cut": 1.3366453725945668,
+            "peak_to_background": 11.812512708592028,
+            "roi_counts": 65642.82712024567,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 4865.064357522811,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 15196.255356737298,
+            "net_peak_retention_vs_no_cut": 0.773863308408961,
+            "pb_improvement_factor_vs_no_cut": 1.3459291656618535,
+            "peak_to_background": 3.123546625491078,
+            "roi_counts": 20061.31971426011,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1373.0351543728675,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 50503.03642388939,
+            "net_peak_retention_vs_no_cut": 0.7870797531149052,
+            "pb_improvement_factor_vs_no_cut": 1.3871246529395298,
+            "peak_to_background": 36.78204178752918,
+            "roi_counts": 51876.07157826226,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.7352746970005559,
+        "selected_events": 1695424,
+        "selected_fraction": 0.5874422059850761,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2793700372512422,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.919148281964053,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.15231123470476804,
+        "sensitivity_mean_peak_retention_excluding_209": 0.7379527044037151,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.700576367007698,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.7668370472592849,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.483
+      },
+      "minimum_retention_80pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.1991290982917384,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.7212906028523591,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.2728953246965491,
+        "mean_peak_retention": 0.822910171309962,
+        "minimum_peak_retention": 0.8025190176865548,
+        "minimum_peak_retention_normalized_loss_fraction": 0.44839527815581004,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1283.434402907972,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1137.4246485163344,
+            "net_peak_retention_vs_no_cut": 0.8025190176865548,
+            "pb_improvement_factor_vs_no_cut": 1.308409226127254,
+            "peak_to_background": 0.8862351250201704,
+            "roi_counts": 2420.8590514243065,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 920.730378595552,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1449.0063137843294,
+            "net_peak_retention_vs_no_cut": 0.8048343663422552,
+            "pb_improvement_factor_vs_no_cut": 1.2530548463736917,
+            "peak_to_background": 1.5737574728386718,
+            "roi_counts": 2369.7366923798813,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 26964.960632478764,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 5137.650788346811,
+            "net_peak_retention_vs_no_cut": 0.8302679549920552,
+            "pb_improvement_factor_vs_no_cut": 1.048004795630542,
+            "peak_to_background": 0.19053062447859137,
+            "roi_counts": 32102.611420825575,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 25157.26025231829,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 85163.2282154442,
+            "net_peak_retention_vs_no_cut": 0.8446259090161857,
+            "pb_improvement_factor_vs_no_cut": 1.0440491672977792,
+            "peak_to_background": 3.3852346146316243,
+            "roi_counts": 110320.48846776248,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 14591.85287767851,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 6967.436475638082,
+            "net_peak_retention_vs_no_cut": 0.8207074491561938,
+            "pb_improvement_factor_vs_no_cut": 1.101062044521172,
+            "peak_to_background": 0.4774881253289175,
+            "roi_counts": 21559.28935331659,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 8987.911496022814,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 4401.334540577336,
+            "net_peak_retention_vs_no_cut": 0.824276275055571,
+            "pb_improvement_factor_vs_no_cut": 1.204471697635725,
+            "peak_to_background": 0.48969491327600895,
+            "roi_counts": 13389.24603660015,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 8063.079640896997,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 25960.286064560678,
+            "net_peak_retention_vs_no_cut": 0.8036516693224722,
+            "pb_improvement_factor_vs_no_cut": 1.226056441645606,
+            "peak_to_background": 3.2196489704611997,
+            "roi_counts": 34023.365705457676,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 5951.0877388822155,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 66549.51477161144,
+            "net_peak_retention_vs_no_cut": 0.8157387064716158,
+            "pb_improvement_factor_vs_no_cut": 1.265384325472174,
+            "peak_to_background": 11.182748043992264,
+            "roi_counts": 72500.60251049366,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 5528.894774727836,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 16410.037778191225,
+            "net_peak_retention_vs_no_cut": 0.8356746993276147,
+            "pb_improvement_factor_vs_no_cut": 1.278926149933922,
+            "peak_to_background": 2.9680502969961156,
+            "roi_counts": 21938.93255291906,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1573.5748881440895,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 54335.35446823942,
+            "net_peak_retention_vs_no_cut": 0.846805665729102,
+            "pb_improvement_factor_vs_no_cut": 1.3021911674131936,
+            "peak_to_background": 34.52988153129705,
+            "roi_counts": 55908.92935638351,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.8314229990220723,
+        "selected_events": 2041837,
+        "selected_fraction": 0.7074697724828419,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2172120375745634,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.7146438219465268,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.20888637102748475,
+        "sensitivity_mean_peak_retention_excluding_209": 0.8220926397897296,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.8025190176865548,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.505757450919042,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.4405
+      },
+      "minimum_retention_90pct": {
+        "all_peak_statistics_reliable": true,
+        "geometric_mean_pb_improvement": 1.1031515100373672,
+        "geometric_mean_pb_improvement_normalized_gain_fraction": 0.3736380845303643,
+        "geometric_mean_pb_improvement_pareto_knee_score": 0.14716151943706784,
+        "mean_peak_retention": 0.9415065594550855,
+        "minimum_peak_retention": 0.9002558306823696,
+        "minimum_peak_retention_normalized_loss_fraction": 0.22647656509329644,
+        "per_peak": {
+          "1247.080": {
+            "estimated_background_counts": 1597.6713980597713,
+            "label": "1247.1 keV Ac-228",
+            "net_peak_counts": 1275.9487927656999,
+            "net_peak_retention_vs_no_cut": 0.9002558306823696,
+            "pb_improvement_factor_vs_no_cut": 1.1790722656337842,
+            "peak_to_background": 0.7986303030242798,
+            "roi_counts": 2873.620190825471,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "1460.830": {
+            "estimated_background_counts": 1143.1551037043916,
+            "label": "1460.8 keV K-40/background",
+            "net_peak_counts": 1638.0151395975065,
+            "net_peak_retention_vs_no_cut": 0.9098172067269548,
+            "pb_improvement_factor_vs_no_cut": 1.140893293039255,
+            "peak_to_background": 1.4328896702551752,
+            "roi_counts": 2781.170243301898,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "209.253": {
+            "estimated_background_counts": 32753.962987036106,
+            "label": "209.3 keV Ac-228",
+            "net_peak_counts": 6035.531916473043,
+            "net_peak_retention_vs_no_cut": 0.9753696675814402,
+            "pb_improvement_factor_vs_no_cut": 1.0135616643819625,
+            "peak_to_background": 0.18426875303186618,
+            "roi_counts": 38789.49490350915,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "238.632": {
+            "estimated_background_counts": 29921.995343975814,
+            "label": "238.6 keV Pb-212",
+            "net_peak_counts": 98907.6940632492,
+            "net_peak_retention_vs_no_cut": 0.980939811200309,
+            "pb_improvement_factor_vs_no_cut": 1.019463553725479,
+            "peak_to_background": 3.3055179952483438,
+            "roi_counts": 128829.68940722501,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "300.087": {
+            "estimated_background_counts": 18150.53661674442,
+            "label": "300.1 keV Pb-212",
+            "net_peak_counts": 8204.287811144572,
+            "net_peak_retention_vs_no_cut": 0.9663984946502253,
+            "pb_improvement_factor_vs_no_cut": 1.042318951821978,
+            "peak_to_background": 0.45201351256887184,
+            "roi_counts": 26354.82442788899,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "409.462": {
+            "estimated_background_counts": 11429.914307380503,
+            "label": "409.5 keV Ac-228",
+            "net_peak_counts": 5137.517314855955,
+            "net_peak_retention_vs_no_cut": 0.9621476386949408,
+            "pb_improvement_factor_vs_no_cut": 1.1055574891999573,
+            "peak_to_background": 0.44947995030361404,
+            "roi_counts": 16567.431622236458,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "510.770": {
+            "estimated_background_counts": 10257.787510613995,
+            "label": "510.8 keV Tl-208/pair",
+            "net_peak_counts": 29874.483802708335,
+            "net_peak_retention_vs_no_cut": 0.9248233520419031,
+            "pb_improvement_factor_vs_no_cut": 1.1090436781289628,
+            "peak_to_background": 2.9123710909196006,
+            "roi_counts": 40132.27131332233,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "583.191": {
+            "estimated_background_counts": 7565.708555164504,
+            "label": "583.2 keV Tl-208",
+            "net_peak_counts": 75595.75245683033,
+            "net_peak_retention_vs_no_cut": 0.9266240563212756,
+            "pb_improvement_factor_vs_no_cut": 1.1306331043344082,
+            "peak_to_background": 9.99189327815531,
+            "roi_counts": 83161.46101199483,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          },
+          "727.330": {
+            "estimated_background_counts": 6859.710969655577,
+            "label": "727.3 keV Bi-212",
+            "net_peak_counts": 18340.14569678081,
+            "net_peak_retention_vs_no_cut": 0.9339646835640183,
+            "pb_improvement_factor_vs_no_cut": 1.152049594035575,
+            "peak_to_background": 2.6736032724862255,
+            "roi_counts": 25199.85666643639,
+            "sideband_mode": "both",
+            "statistically_reliable": true
+          },
+          "911.204": {
+            "estimated_background_counts": 1960.836479590243,
+            "label": "911.2 keV Ac-228",
+            "net_peak_counts": 59976.696281370314,
+            "net_peak_retention_vs_no_cut": 0.9347248530874194,
+            "pb_improvement_factor_vs_no_cut": 1.1535085518601393,
+            "peak_to_background": 30.58730134085616,
+            "roi_counts": 61937.53276096056,
+            "sideband_mode": "higher_only",
+            "statistically_reliable": true
+          }
+        },
+        "pooled_net_peak_retention": 0.9478943890842646,
+        "selected_events": 2558527,
+        "selected_fraction": 0.8864960888558725,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.1135824674568084,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_normalized_gain_fraction": 0.3736947986668861,
+        "sensitivity_geometric_mean_pb_improvement_excluding_209_pareto_knee_score": 0.11824560944798324,
+        "sensitivity_mean_peak_retention_excluding_209": 0.9377439918854906,
+        "sensitivity_minimum_peak_retention_excluding_209": 0.9002558306823696,
+        "sensitivity_minimum_peak_retention_excluding_209_normalized_loss_fraction": 0.25544918921890286,
+        "sensitivity_statistics_reliable_excluding_209": true,
+        "threshold": 0.353
+      }
+    },
+    "sensitivity_sweet_spot_grid_selection_excluding_209": {
+      "normalized_gain_fraction": 0.7144127105902639,
+      "normalized_retention_loss_fraction": 0.5004680422033727,
+      "pareto_knee_score": 0.2139446683868912,
+      "threshold": 0.44
+    },
+    "statistical_reliability": {
+      "minimum_background_counts_per_peak": 100.0,
+      "minimum_net_peak_counts_per_peak": 1000.0
+    },
+    "superseded_global_0p437_exact": {
+      "all_peak_statistics_reliable": true,
+      "geometric_mean_pb_improvement": 1.19493450773409,
+      "mean_peak_retention": 0.8294464538029473,
+      "minimum_peak_retention": 0.8042020191508871,
+      "per_peak": {
+        "1247.080": {
+          "estimated_background_counts": 1289.4917114396894,
+          "label": "1247.1 keV Ac-228",
+          "net_peak_counts": 1151.364330136022,
+          "net_peak_retention_vs_no_cut": 0.8123542710502719,
+          "pb_improvement_factor_vs_no_cut": 1.31822290862961,
+          "peak_to_background": 0.8928823038734766,
+          "roi_counts": 2440.8560415757115,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "1460.830": {
+          "estimated_background_counts": 933.1248845363922,
+          "label": "1460.8 keV K-40/background",
+          "net_peak_counts": 1447.867849634295,
+          "net_peak_retention_vs_no_cut": 0.8042020191508871,
+          "pb_improvement_factor_vs_no_cut": 1.2354393457574722,
+          "peak_to_background": 1.5516335204731406,
+          "roi_counts": 2380.992734170687,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "209.253": {
+          "estimated_background_counts": 27349.033683923994,
+          "label": "209.3 keV Ac-228",
+          "net_peak_counts": 5230.620647999927,
+          "net_peak_retention_vs_no_cut": 0.8452923111482138,
+          "pb_improvement_factor_vs_no_cut": 1.051985410434431,
+          "peak_to_background": 0.1912543129841744,
+          "roi_counts": 32579.65433192392,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "238.632": {
+          "estimated_background_counts": 25479.77104935929,
+          "label": "238.6 keV Pb-212",
+          "net_peak_counts": 86163.07761752412,
+          "net_peak_retention_vs_no_cut": 0.8545421454929742,
+          "pb_improvement_factor_vs_no_cut": 1.0429364834901338,
+          "peak_to_background": 3.381626838428392,
+          "roi_counts": 111642.84866688341,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "300.087": {
+          "estimated_background_counts": 14795.551292204764,
+          "label": "300.1 keV Pb-212",
+          "net_peak_counts": 7026.613316584477,
+          "net_peak_retention_vs_no_cut": 0.8276780005709148,
+          "pb_improvement_factor_vs_no_cut": 1.0951260732891102,
+          "peak_to_background": 0.474913923639097,
+          "roi_counts": 21822.16460878924,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "409.462": {
+          "estimated_background_counts": 9101.867014323485,
+          "label": "409.5 keV Ac-228",
+          "net_peak_counts": 4425.991274095377,
+          "net_peak_retention_vs_no_cut": 0.8288939564137853,
+          "pb_improvement_factor_vs_no_cut": 1.1960547888959205,
+          "peak_to_background": 0.4862729006181099,
+          "roi_counts": 13527.858288418862,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "510.770": {
+          "estimated_background_counts": 8150.749095956852,
+          "label": "510.8 keV Tl-208/pair",
+          "net_peak_counts": 26147.102361816498,
+          "net_peak_retention_vs_no_cut": 0.8094349349141114,
+          "pb_improvement_factor_vs_no_cut": 1.2215970680642965,
+          "peak_to_background": 3.207938565399672,
+          "roi_counts": 34297.85145777335,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "583.191": {
+          "estimated_background_counts": 6015.969655203633,
+          "label": "583.2 keV Tl-208",
+          "net_peak_counts": 66982.43306063906,
+          "net_peak_retention_vs_no_cut": 0.8210452546307008,
+          "pb_improvement_factor_vs_no_cut": 1.2598800303034696,
+          "peak_to_background": 11.13410420923604,
+          "roi_counts": 72998.40271584269,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        },
+        "727.330": {
+          "estimated_background_counts": 5586.733548538767,
+          "label": "727.3 keV Bi-212",
+          "net_peak_counts": 16493.891011797234,
+          "net_peak_retention_vs_no_cut": 0.8399448921649815,
+          "pb_improvement_factor_vs_no_cut": 1.2721530773403533,
+          "peak_to_background": 2.9523317817996313,
+          "roi_counts": 22080.624560336,
+          "sideband_mode": "both",
+          "statistically_reliable": true
+        },
+        "911.204": {
+          "estimated_background_counts": 1589.9948000759227,
+          "label": "911.2 keV Ac-228",
+          "net_peak_counts": 54609.409098071425,
+          "net_peak_retention_vs_no_cut": 0.8510767524926325,
+          "pb_improvement_factor_vs_no_cut": 1.295243525884336,
+          "peak_to_background": 34.34565263701731,
+          "roi_counts": 56199.40389814735,
+          "sideband_mode": "higher_only",
+          "statistically_reliable": true
+        }
+      },
+      "pooled_net_peak_retention": 0.8381583184224071,
+      "selected_events": 2068180,
+      "selected_fraction": 0.7165972768901553,
+      "sensitivity_geometric_mean_pb_improvement_excluding_209": 1.2119713906395448,
+      "sensitivity_mean_peak_retention_excluding_209": 0.8276858029868066,
+      "sensitivity_minimum_peak_retention_excluding_209": 0.8042020191508871,
+      "sensitivity_statistics_reliable_excluding_209": true,
+      "threshold": 0.437
+    },
+    "sweet_spot_definition": "From no cut through the maximum reliable P/B threshold, normalize attained P/B gain and minimum-retention loss to [0,1]; select the threshold maximizing gain_fraction - retention_loss_fraction.",
+    "sweet_spot_grid_selection": {
+      "normalized_gain_fraction": 0.8073941672262647,
+      "normalized_retention_loss_fraction": 0.5205194647834216,
+      "pareto_knee_score": 0.2868747024428431,
+      "threshold": 0.459
+    },
+    "threshold_kind": "one global DS-CNN score threshold",
+    "usable_anchors": [
+      {
+        "label": "209.3 keV Ac-228",
+        "reference_energy_kev": 209.253,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "238.6 keV Pb-212",
+        "reference_energy_kev": 238.632,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "300.1 keV Pb-212",
+        "reference_energy_kev": 300.087,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "409.5 keV Ac-228",
+        "reference_energy_kev": 409.462,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "510.8 keV Tl-208/pair",
+        "reference_energy_kev": 510.77,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "583.2 keV Tl-208",
+        "reference_energy_kev": 583.191,
+        "sideband_mode": "higher_only"
+      },
+      {
+        "label": "727.3 keV Bi-212",
+        "reference_energy_kev": 727.33,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "911.2 keV Ac-228",
+        "reference_energy_kev": 911.204,
+        "sideband_mode": "higher_only"
+      },
+      {
+        "label": "1247.1 keV Ac-228",
+        "reference_energy_kev": 1247.08,
+        "sideband_mode": "both"
+      },
+      {
+        "label": "1460.8 keV K-40/background",
+        "reference_energy_kev": 1460.83,
+        "sideband_mode": "both"
+      }
+    ]
+  },
+  "peak_windows": [
+    {
+      "centroid_kev": 209.27042075880223,
+      "label": "209.3 keV Ac-228",
+      "left_high_kev": 204.55006393398162,
+      "left_low_kev": 201.4031593841012,
+      "reference_kev": 209.253,
+      "right_high_kev": 217.13768213350326,
+      "right_low_kev": 213.99077758362284,
+      "roi_high_kev": 212.41732530868265,
+      "roi_low_kev": 206.1235162089218,
+      "sideband_mode": "both",
+      "sigma_kev": 1.5734522749402058
+    },
+    {
+      "centroid_kev": 238.90303771420758,
+      "label": "238.6 keV Pb-212",
+      "left_high_kev": 234.00321303746867,
+      "left_low_kev": 230.73666325297606,
+      "reference_kev": 238.632,
+      "right_high_kev": 247.0694121754391,
+      "right_low_kev": 243.8028623909465,
+      "roi_high_kev": 242.1695874987002,
+      "roi_low_kev": 235.63648792971497,
+      "sideband_mode": "both",
+      "sigma_kev": 1.6332748922463043
+    },
+    {
+      "centroid_kev": 299.41609583989475,
+      "label": "300.1 keV Pb-212",
+      "left_high_kev": 295.204922926503,
+      "left_low_kev": 292.39747431757513,
+      "reference_kev": 300.087,
+      "right_high_kev": 306.43471736221437,
+      "right_low_kev": 303.6272687532865,
+      "roi_high_kev": 302.22354444882257,
+      "roi_low_kev": 296.60864723096694,
+      "sideband_mode": "both",
+      "sigma_kev": 1.403724304463921
+    },
+    {
+      "centroid_kev": 408.47160329013053,
+      "label": "409.5 keV Ac-228",
+      "left_high_kev": 404.2936009723648,
+      "left_low_kev": 401.5082660938543,
+      "reference_kev": 409.462,
+      "right_high_kev": 415.4349404864068,
+      "right_low_kev": 412.64960560789626,
+      "roi_high_kev": 411.25693816864106,
+      "roi_low_kev": 405.68626841162,
+      "sideband_mode": "both",
+      "sigma_kev": 1.3926674392552516
+    },
+    {
+      "centroid_kev": 510.3925192053669,
+      "label": "510.8 keV Tl-208/pair",
+      "left_high_kev": 505.2812395086955,
+      "left_low_kev": 501.87371971091454,
+      "reference_kev": 510.77,
+      "right_high_kev": 518.9113186998193,
+      "right_low_kev": 515.5037989020383,
+      "roi_high_kev": 513.8000390031478,
+      "roi_low_kev": 506.984999407586,
+      "sideband_mode": "both",
+      "sigma_kev": 1.7037598988904736
+    },
+    {
+      "centroid_kev": 583.476725309896,
+      "label": "583.2 keV Tl-208",
+      "left_high_kev": 578.8176678425832,
+      "left_low_kev": 575.7116295310414,
+      "reference_kev": 583.191,
+      "right_high_kev": 591.2418210887506,
+      "right_low_kev": 588.1357827772088,
+      "roi_high_kev": 586.5827636214378,
+      "roi_low_kev": 580.3706869983541,
+      "sideband_mode": "higher_only",
+      "sigma_kev": 1.5530191557709243
+    },
+    {
+      "centroid_kev": 727.3849942764109,
+      "label": "727.3 keV Bi-212",
+      "left_high_kev": 722.6589721143176,
+      "left_low_kev": 719.508290672922,
+      "reference_kev": 727.33,
+      "right_high_kev": 735.2616978798998,
+      "right_low_kev": 732.1110164385042,
+      "roi_high_kev": 730.5356757178064,
+      "roi_low_kev": 724.2343128350154,
+      "sideband_mode": "both",
+      "sigma_kev": 1.575340720697764
+    },
+    {
+      "centroid_kev": 911.3249278028828,
+      "label": "911.2 keV Ac-228",
+      "left_high_kev": 906.5099938540079,
+      "left_low_kev": 903.3000378880913,
+      "reference_kev": 911.204,
+      "right_high_kev": 919.3498177176743,
+      "right_low_kev": 916.1398617517577,
+      "roi_high_kev": 914.5348837687994,
+      "roi_low_kev": 908.1149718369662,
+      "sideband_mode": "higher_only",
+      "sigma_kev": 1.604977982958296
+    },
+    {
+      "centroid_kev": 1246.9714768324252,
+      "label": "1247.1 keV Ac-228",
+      "left_high_kev": 1240.9726055256483,
+      "left_low_kev": 1236.9733579877973,
+      "reference_kev": 1247.08,
+      "right_high_kev": 1256.9695956770531,
+      "right_low_kev": 1252.970348139202,
+      "roi_high_kev": 1250.9707243702765,
+      "roi_low_kev": 1242.972229294574,
+      "sideband_mode": "both",
+      "sigma_kev": 1.9996237689256067
+    },
+    {
+      "centroid_kev": 1460.4384697086775,
+      "label": "1460.8 keV K-40/background",
+      "left_high_kev": 1454.9681533762907,
+      "left_low_kev": 1451.321275821366,
+      "reference_kev": 1460.83,
+      "right_high_kev": 1469.555663595989,
+      "right_low_kev": 1465.9087860410643,
+      "roi_high_kev": 1464.085347263602,
+      "roi_low_kev": 1456.791592153753,
+      "sideband_mode": "both",
+      "sigma_kev": 1.8234387774622796
+    }
+  ],
+  "schema_version": 1,
+  "score_cache": "outputs/experiments/paper1_equal_weight_ds_cnn_20260826/th232/th232_ds_cnn_scores.h5",
+  "score_cache_sha256": "f4cf1e8c2b4775a20475e453c5a166eb7c83b2366c602df4d93b0152737aa51f",
+  "status": "TH232_USABLE_PEAK_GLOBAL_THRESHOLD_COMPLETE",
+  "test_partition_used": false
+}
