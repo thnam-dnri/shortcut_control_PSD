@@ -47,8 +47,8 @@ This repository contains the reproduction code, model architecture, pairing mani
 ## Setup & Dependencies
 
 ```bash
-git clone git@github.com:thnam-dnri/shotcut_control_PSD.git
-cd shotcut_control_PSD
+git clone git@github.com:thnam-dnri/shortcut_control_PSD.git
+cd shortcut_control_PSD
 
 python3 -m venv venv
 source venv/bin/activate
